@@ -2,13 +2,13 @@ import { getAllContent, CONTENT_TYPES, type ContentType } from '@/lib/content'
 import { routing } from '@/i18n/routing'
 
 export async function GET() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
-  const siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'Lucid Blocks Wiki'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rfonlinenext.wiki'
+  const siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'RF Online Next Wiki'
 
   const lines: string[] = []
   lines.push(`# ${siteName}`)
   lines.push('')
-  lines.push(`> ${siteName} is a comprehensive game wiki providing guides, tips, walkthroughs, and community resources.`)
+  lines.push(`> ${siteName} is a comprehensive fan-made resource for RF Online Next, the cross-platform sci-fi MMORPG, providing codes, Biosuit class guides, Sacred Weapon info, world boss strategies, and PvP tactics.`)
   lines.push('')
   lines.push(`Website: ${baseUrl}`)
   lines.push(`Languages: ${routing.locales.join(', ')}`)

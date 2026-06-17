@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "RF Online Next Wiki - Codes, Biosuits & PC Guide",
+      "description": "RF Online Next guide with launch info, codes, biosuits, Sacred Weapons, PC download help, world bosses, PvP, system requirements and beginner tips.",
+      "keywords": "RF Online Next, PC, mobile, codes, biosuits, Sacred Weapons, PvP, guide",
+      "ogTitle": "RF Online Next Wiki - Codes, Biosuits & PC Guide",
+      "ogDescription": "RF Online Next guide with launch info, codes, biosuits, Sacred Weapons, PC download help, world bosses, PvP, system requirements and beginner tips.",
+      "twitterTitle": "RF Online Next Wiki - Codes, Biosuits & PC Guide",
+      "twitterDescription": "RF Online Next guide with launch info, codes, biosuits, Sacred Weapons, PC download help, world bosses, PvP, and beginner tips."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Ruthless Steel Sci-Fi MMORPG",
+    "title": "RF Online Next Wiki",
+    "description": "RF ONLINE NEXT is a cross-platform sci-fi MMORPG with Biosuit class swapping, Sacred Weapons, MAU and Animus combat, world boss raids, massive PvP, and PC/mobile play.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Epic Games",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Jun 17, 2026 UTC",
+        "label": "Global Launch"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "500K+",
+        "label": "Google Play Downloads"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "22.7K",
+        "label": "Google Play Reviews"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "7",
+        "label": "Biosuit Classes"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Play RF Online Next?",
+    "description": "Join the RF Online Next community on Discord for guides, codes, updates, and discussions!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Epic Games"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "RF Online Next Wiki",
+    "description": "Your complete resource hub for RF Online Next codes, biosuits, Sacred Weapons, world boss raids, PvP, and PC download guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "twitter": "YouTube",
+    "steamCommunity": "Official Forum",
+    "steamStore": "Epic Games Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 RF Online Next Wiki. Not affiliated with Netmarble, the developer of RF Online Next.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
