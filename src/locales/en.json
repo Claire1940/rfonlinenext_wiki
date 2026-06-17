@@ -10,14 +10,7 @@
       "twitterDescription": "RF Online Next guide with launch info, codes, biosuits, Sacred Weapons, PC download help, world bosses, PvP, and beginner tips."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
