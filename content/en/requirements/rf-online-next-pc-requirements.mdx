@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "RF Online Next PC Requirements: Setup Guide & Performance Tips",
+  description: "Check the official RF Online Next PC requirements, minimum and recommended specs, installation steps, and graphics optimization tips for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=PC+Requirements+Guide",
+  date: "2026-06-17",
+  author: "rf online next Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **rf online next pc requirements**: Requires a minimum of **12 GB RAM** and an **Intel i5 8400** to run the game effectively.
+- **Storage Space**: You must reserve at least **30 GB** of available space on your drive for the initial installation.
+- **Graphics API**: The game utilizes **DirectX 12**, meaning older GPUs without DX12 support will not be able to launch the client.
+- **Recommended Setup**: For high-fidelity space combat and world boss raids, an **RTX 2060** and **16 GB RAM** are highly advised.
+- **Operating System**: Only **Windows 10 64-bit** or later versions are officially supported for the PC version.
+</Callout>
+
+<Section icon={Shield} title="Official RF Online Next PC Requirements">
+
+To experience the ruthless sci-fi warfare of RF Online Next, your hardware must meet specific benchmarks. Unlike the original legacy title, this modern successor utilizes high-fidelity assets to render massive BioSuits and Sacred Weapons like the MAU and Animus. Ensuring your system aligns with the **rf online next pc requirements** is the first step toward a stable framerate during large-scale PvP Mining Wars.
+
+The following data represents the official hardware targets provided by Netmarble for the 2026 global launch.
+
+| Hardware Component | Minimum Specification | Recommended Specification |
+| :--- | :--- | :--- |
+| **Operating System** | Windows 10 (64-bit) | Windows 10/11 (64-bit) |
+| **Processor (CPU)** | Intel Core i5-8400 | Intel Core i5-12400 |
+| **Memory (RAM)** | 12 GB | 16 GB |
+| **Graphics (GPU)** | NVIDIA GeForce GTX 1060 | NVIDIA GeForce RTX 2060 |
+| **DirectX Version** | Version 12 | Version 12 |
+| **Storage Space** | 30 GB available | 30 GB available |
+
+<Callout type="tip" title="Performance Insight">
+While the minimum RAM is listed at 12 GB, background applications (like Discord or web browsers) can easily push your usage higher. If you are building a new PC for this game, 16 GB should be considered the true functional baseline.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Installation Platforms and Setup Guide">
+
+RF Online Next offers multiple entry points for PC players. Choosing the right platform depends on whether you prefer a standalone experience or integrated store features like achievements and friend lists. The global launch on June 16, 2026 (PST), supports two primary PC distributors.
+
+<CardGrid cols={2}>
+  <Card title="Netmarble Launcher">
+    - **Direct Updates**: Often receives patches slightly faster than third-party stores.
+    - **Netmarble Connect**: Supports remote play features for seamless PC-to-mobile transitions.
+    - **Resource Efficient**: Lower background overhead compared to larger storefronts.
+  </Card>
+  <Card title="Epic Games Store">
+    - **Unified Library**: Keep your MMORPG alongside your other PC titles.
+    - **Achievements**: Full support for "The Great Beginning" and "Valiant Mercenary" milestones.
+    - **Social Integration**: Easily see which friends are currently in-game.
+  </Card>
+</CardGrid>
+
+Follow these steps to ensure a clean installation and avoid common "corrupted file" errors during the initial patch.
+
+<Steps>
+  <Step num="1" title="Select Your Platform">
+    Visit the official global site or the Epic Games Store page to download the installer. Avoid third-party APK mirrors or unofficial launcher links.
+  </Step>
+  <Step num="2" title="Initialize the Launcher">
+    Run the installer and choose a directory with at least 30 GB of free space. Installing on an SSD is highly recommended to reduce loading times for BioSuit swapping.
+  </Step>
+  <Step num="3" title="Account Creation">
+    Log in using your Netmarble account. Ensure you select the correct region (Global, Korea, Japan, or Thailand) before committing to a server.
+  </Step>
+  <Step num="4" title="Apply Initial Patches">
+    After the launcher installs, it will download additional game data. Stay connected to a stable network to prevent packet loss during the 30 GB download.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Regional Conflict">
+Account progress is typically locked to the region and server chosen at the start. Verify with your guild or friends which server they are using before you finish the character creation tutorial.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Storage Management and Storage Optimization">
+
+Modern MMORPGs are notoriously heavy on storage. RF Online Next requires 30 GB, which is relatively lean for a 2026 title, but this size will likely grow as new BioSuits and regions are added in future updates. Proper drive maintenance ensures that the game engine can stream assets quickly during high-speed flight.
+
+| Storage Type | Performance Impact | Recommendation |
+| :--- | :--- | :--- |
+| **NVMe SSD** | Near-instant asset loading | Best for competitive PvP |
+| **SATA SSD** | Standard loading times | Highly Recommended |
+| **HDD (Mechanical)** | Slow loading, potential stutter | Not Recommended |
+| **External Drive** | Varies by USB speed | Use USB 3.1 or higher |
+
+<Checklist
+  id="pre-install-checklist"
+  title="Pre-Installation Checklist:"
+  items={[
+    "Verify at least 40 GB of free space (30 GB for game + 10 GB buffer)",
+    "Update NVIDIA or AMD drivers to the latest 2026 versions",
+    "Disable Windows 'Game Mode' if you experience micro-stuttering",
+    "Ensure DirectX 12 is fully updated via Windows Update"
+  ]}
+/>
+
+<Callout type="info" title="Asset Streaming">
+RF Online Next uses a seamless world system. If you install the game on a slow mechanical hard drive, you may experience "pop-in" where textures and enemy models appear late when you are flying at high speeds.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="In-Game Graphics and Control Configuration">
+
+Once you have verified that your hardware meets the **rf online next pc requirements**, you can fine-tune the software settings. The game provides an "Environment" tab within the settings menu to balance visual fidelity with performance stability.
+
+| Setting Category | Recommended Action | Impact on Performance |
+| :--- | :--- | :--- |
+| **Resolution** | Match Native Monitor Res | High |
+| **Texture Quality** | High (if 6GB+ VRAM) | Medium |
+| **Shadow Quality** | Medium | High |
+| **Effects (VFX)** | Low/Medium for PvP | High |
+| **View Distance** | High | Medium |
+
+For PC players, mastering the controls is essential for utilizing the BioSuit flight system and Sacred Weapon deployment.
+
+| PC Action | Default Keybind | Strategy Tip |
+| :--- | :--- | :--- |
+| **Movement** | W, A, S, D | Standard for all BioSuits |
+| **Flight** | Space Bar | Double tap to initiate flight |
+| **Window Mode** | Alt + Enter / F11 | Useful for multi-tasking |
+| **Settings Menu** | ESC | Access the Environment tab |
+| **BioSuit Swap** | Configurable | Swap based on combat range |
+
+<Callout type="success" title="Optimization Tip">
+In massive PvP Mining Wars with hundreds of players, lowering the "VFX" and "Player Limit" settings can significantly boost your FPS, allowing you to react faster to incoming Sacred Weapon fire.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cross-Platform Connectivity and Remote Play">
+
+RF Online Next is built as a cross-platform experience. While the PC version offers the highest graphical fidelity, Netmarble has integrated systems to keep you connected even when you are away from your desk.
+
+| Feature | Description | PC Requirement |
+| :--- | :--- | :--- |
+| **Cross-Play** | Play with mobile users on the same server | Active Internet Connection |
+| **Netmarble Connect** | Remote play and notifications | Official Netmarble Launcher |
+| **Account Sync** | Shared progress across PC/iOS/Android | Linked Social/Netmarble Account |
+
+The BioSuit system is particularly well-suited for this. You can perform routine farming on your mobile device using a stable BioSuit like the Punisher, then switch to your PC for high-stakes World Boss raids where the precision of a mouse and keyboard is required for the Demolisher or Phantom classes.
+
+<Callout type="info" title="Mobile Requirements">
+For players looking to sync, the mobile version requires **iOS 15.0** or later for Apple devices. Android requirements vary, but generally require a mid-to-high-end chipset from the last three years to match the PC's baseline performance.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Summary and FAQ">
+
+Meeting the **rf online next pc requirements** ensures that you can participate in the game's core loop: Mine, Fight, and Conquer. By prioritizing an SSD installation and ensuring you have at least 12 GB of RAM, you avoid the technical hurdles that often plague launch-day players in massive MMORPGs.
+
+<FAQ items={[
+  {
+    question: "Can I run RF Online Next with 8 GB of RAM?",
+    answer: "The official minimum requirement is 12 GB of RAM. While the game might launch with 8 GB, you will likely experience significant crashing, especially in populated cities or during large-scale PvP Mining Wars."
+  },
+  {
+    question: "Does the game support older versions of DirectX?",
+    answer: "No, RF Online Next is built for DirectX 12. GPUs that do not support DX12 hardware acceleration will be unable to run the game client."
+  },
+  {
+    question: "How much storage space do I actually need?",
+    answer: "The current installation requires 30 GB. However, it is recommended to have at least 40-50 GB free to account for temporary patch files and future content updates in 2026."
+  },
+  {
+    question: "Is there a difference between the Epic Games and Netmarble Launcher versions?",
+    answer: "The core gameplay and servers are identical. The main difference lies in the storefront features, such as Epic Games achievements and friend list integration."
+  }
+]} />
+
+<Callout type="tip" title="Final Checklist">
+Before the next server maintenance or major patch, always check that your drivers are updated. Netmarble frequently optimizes the client for the latest NVIDIA and AMD hardware releases.
+</Callout>
+
+</Section>

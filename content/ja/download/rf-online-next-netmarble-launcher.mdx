@@ -1,0 +1,206 @@
+import { Monitor, Download, Settings, Shield, Gamepad2, Cpu, Map, Swords, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "rf online next netmarble launcher: PC設定ガイド",
+  description: "rf online next netmarble launcherの公式ガイド。PCのシステム要件、インストール手順、2026年グローバルローンチの詳細を学びましょう。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/0f172a/fbbf24?text=Netmarble+Launcher+Setup",
+  date: "2026-06-17",
+  author: "rf online next Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主要キーワード**: **rf online next netmarble launcher**は、2026年リリースのSF MMORPGの公式PCクライアントです。
+- **公式プラットフォーム**: Netmarble LauncherおよびEpic Games Store経由でPC、iOSおよびAndroidで利用可能です。
+- **ストレージ要件**: スムーズなインストールのため、少なくとも**30 GB**の空きSSD容量を確保してください。
+- **主要機能**: PCとモバイルデバイス間のリモートプレイをサポートする**Netmarble Connect**に対応しています。
+- **リリース日**: グローバルサービスは、太平洋標準時6月16日のリリースに続き、**2026年6月17日UTC**に開始されました。
+</Callout>
+
+<Section icon={Monitor} title="rf online next netmarble launcher: 公式PCアクセス">
+
+**rf online next netmarble launcher**は、ネットマーブルの最新SF大作の高精細PC版を体験したいプレイヤーにとって主要なゲートウェイとなります。サードパーティのミラーとは異なり、公式ランチャーはゲームのアップデート、セキュリティパッチ、およびNetmarble Connectエコシステムへの直接アクセスを提供します。公式ランチャーを選択することで、アカウントデータがプラットフォーム間で同期され、Bellato、Cora、Accretiaの各地域での進行状況を失うことなく、デスクトップとモバイルデバイスを切り替えることができます。
+
+**ビデオハイライト:**
+- 2026年グローバルローンチの公式シネマティック映像。
+- マイニングウォーの壮大なスケールを披露。
+- 7つのコアバイオスーツクラスのプレビュー。
+- 聖なる武器展開システムのデモンストレーション。
+
+<YouTubeEmbed videoId="cZTVgjXp2gw" title="RF ONLINE NEXT | Launch Day Trailer" />
+
+| プラットフォーム | 配布方法 | 地域サポート |
+| :--- | :--- | :--- |
+| **PC (公式)** | **Netmarble Launcher** | グローバル / 多言語 |
+| **PC (ストア)** | Epic Games Store | グローバル |
+| **モバイル (Android)** | Google Play Store | グローバル |
+| **モバイル (iOS)** | Apple App Store | グローバル |
+
+<Callout type="tip" title="セキュリティに関する注意">
+非公式のAPKミラーや改造されたランチャーによってアカウントのセキュリティが損なわれるのを避けるため、クライアントは必ず公式の**rf online next**グローバルサイトからダウンロードしてください。
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="PCシステム要件とパフォーマンス最適化">
+
+大規模なPvPや空中戦の激しいグラフィック要件に対応するため、PCは特定のハードウェア基準を満たす必要があります。ゲームはDirectX 12を利用して、複雑な機械構造や環境エフェクトをレンダリングします。特に、数百人のプレイヤーが同時に衝突する2026年のマイニングウォーでは、最高の体験を得るために、フレームレートの低下を防ぐためにも推奨スペックを満たすことが強く推奨されます。
+
+| コンポーネント | 最小スペック | 推奨スペック |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 64-bit | Windows 10/11 64-bit |
+| **CPU** | Intel i5 8400 | Intel i5 12400 |
+| **RAM** | 12 GB | 16 GB |
+| **GPU** | NVIDIA GeForce GTX 1060 | NVIDIA GeForce RTX 2060 |
+| **DirectX** | Version 12 | Version 12 |
+| **ストレージ** | 30 GB SSD | 30 GB SSD |
+
+<Callout type="warning" title="ストレージのヒント">
+ベースインストーラーは小さいですが、完全にパッチが適用されたゲームには**30 GB**が必要です。SSDではなくHDDにインストールすると、バイオスーツの交換中にテクスチャのポップインが頻繁に発生したり、ロード時間が長くなったりする可能性があります。
+</Callout>
+
+| 設定 | パフォーマンスへの影響 | ミッドレンジ向け推奨 |
+| :--- | :--- | :--- |
+| **シャドウ品質** | 高 | 中 |
+| **テクスチャ解像度** | 高 | 高 (VRAM > 6GBの場合) |
+| **アンチエイリアシング** | 中 | TAA / DLSS |
+| **エフェクト密度** | 極端 | 中 (PvPに不可欠) |
+
+<Callout type="success" title="最適化の成功">
+設定メニューで「エフェクト密度」を減らすと、大規模な派閥戦中に自分のキャラクターのスキルの視覚的な明瞭さを犠牲にすることなく、フレームレートを最大40%向上させることができます。
+</Callout>
+
+</Section>
+
+<Section icon={Download} title="Netmarble Launcher経由でRF Online Nextをインストールする方法">
+
+**rf online next netmarble launcher**のセットアップは簡単なプロセスですが、初期データ検証のために安定したインターネット接続が必要です。2026年のグローバルサービスに向けてゲームクライアントが正しく構成されていることを確認するために、以下の手順に従ってください。
+
+<Steps>
+  <Step num="1" title="インストーラーをダウンロード">
+    公式グローバルウェブサイトにアクセスし、「PC版をダウンロード」オプションを選択します。これにより、Netmarble Launcherのセットアップ実行可能ファイルがダウンロードされます。
+  </Step>
+  <Step num="2" title="ランチャーをインストール">
+    実行可能ファイルを実行し、インストールディレクトリを選択します。一時パッチファイルを考慮して、ドライブに少なくとも35 GBの空き容量があることを確認してください。
+  </Step>
+  <Step num="3" title="アカウント認証">
+    ランチャーを開き、Netmarbleアカウントでログインします。モバイルで事前登録した場合は、同じ資格情報を使用して報酬を受け取ります。
+  </Step>
+  <Step num="4" title="ゲームデータダウンロード">
+    ゲームリストから**RF Online Next**を選択し、「インストール」をクリックします。ランチャーは30 GBのゲームクライアントのダウンロードを開始します。
+  </Step>
+  <Step num="5" title="最終設定">
+    ダウンロードが完了したら、「設定」アイコン（歯車）をクリックしてゲームファイルを検証し、希望の言語（英語、韓国語、日本語、タイ語）を設定します。
+  </Step>
+</Steps>
+
+<Callout type="info" title="言語サポート">
+PC版は、英語、フランス語、ドイツ語、ロシア語を含む16のテキスト言語をサポートしています。オーディオは現在、英語と韓国語で利用可能です。
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad2} title="PC操作とキーバインドガイド">
+
+**rf online next netmarble launcher**を介してPCでプレイすることは、精度とホットキー管理の点で大きな戦術的利点をもたらします。コントロールスキームは、地上戦と、2026年のゲーム世界をナビゲートするために不可欠な高速飛行メカニクスの両方に対応するように設計されています。
+
+| アクションカテゴリ | キーバインド (デフォルト) | 機能 |
+| :--- | :--- | :--- |
+| **移動** | W, A, S, D | キャラクター移動 |
+| **飛行** | Space Bar | 飛行切り替え / 上昇 |
+| **上昇/下降** | Space / C | 飛行中の垂直方向制御 |
+| **インタラクション** | F | NPCとの会話 / 戦利品収集 |
+| **画面モード** | Alt + Enter | フルスクリーン / ウィンドウモード切り替え |
+| **メニュー切り替え** | ESC | メインシステムメニューを開く |
+| **クイックスロット** | 1 - 0 | スキルとアイテムの実行 |
+
+<Callout type="tip" title="飛行の習熟">
+スペースバーをダブルタップすると、素早い離陸が開始されます。燃料計の管理は非常に重要です。長時間高空を飛行しすぎると燃料が枯渇し、緊急着陸を余儀なくされます。
+</Callout>
+
+| 機能 | PCランチャー版 | モバイル版 |
+| :--- | :--- | :--- |
+| **グラフィック** | 4K / 120 FPS アンロック | 60 FPS 固定 |
+| **操作** | キーボード & マウス | タッチスクリーン |
+| **リモートプレイ** | Netmarble Connect経由でホスト | Netmarble Connect経由でクライアント |
+| **マルチタスク** | ウィンドウモード対応 | バックグラウンドアプリ制限 |
+
+<Callout type="info" title="プロ設定">
+セーフゾーンでファーミング中にDiscordや公式フォーラムを監視する必要がある場合は、**F11**を使用してウィンドウモードとフルスクリーンモードを素早く切り替えることができます。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="プラットフォーム比較とアカウント連携">
+
+**rf online next netmarble launcher**とEpic Games Storeのどちらを選択するかは、エコシステム統合への好みによって異なります。どちらのバージョンも同じコアゲームプレイ体験とクロスプラットフォーム機能を提供しますが、公式のネットマーブルクライアントは技術的なアップデートがわずかに早く提供されることが多いです。
+
+<CardGrid cols={3}>
+  <Card title="ネットマーブルランチャー">
+    - **直接アップデート**: 最新パッチへの最速アクセス。
+    - **Connect統合**: リモートプレイの組み込みサポート。
+    - **軽量**: 最小限のバックグラウンドリソース使用。
+  </Card>
+  <Card title="Epic Games Store">
+    - **実績システム**: Epic実績の統合。
+    - **ソーシャル機能**: Epicのフレンドリストと接続。
+    - **統合ライブラリ**: すべてのゲームを1か所に。
+  </Card>
+  <Card title="モバイルアプリストア">
+    - **携帯性**: iOS/Androidで外出先でもプレイ可能。
+    - **タッチ最適化**: モバイルデバイス向けに設計されたUI。
+    - **通知**: ボス出現の即時アラート。
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="アカウント連携">
+進行状況が確実に保存されるように、最初の起動時にアカウントを永続的なメールアドレスまたはソーシャルログイン（Google/Apple/Netmarble）にリンクしてください。ゲストアカウントは、ランチャーを再インストールした場合にデータが失われるリスクがあります。
+</Callout>
+
+<Checklist
+  id="installation-checklist"
+  title="インストール準備チェックリスト:"
+  items={[
+    "SSDドライブに30 GBの空き容量があることを確認",
+    "NVIDIA/AMDドライバーを最新の2026年バージョンに更新",
+    "Windows設定でDirectX 12が有効になっていることを確認",
+    "30 GBのダウンロードに安定したインターネット接続",
+    "Netmarbleアカウントのログイン情報を用意"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "rf online next netmarble launcherはどこでダウンロードできますか？",
+    answer: "公式ランチャーは、RF Online Nextのグローバルウェブサイトの「PCプレイ」セクションから直接ダウンロードできます。Epic Games Storeからも入手可能です。"
+  },
+  {
+    question: "PC版はコントローラーをサポートしていますか？",
+    answer: "はい、Netmarble Launcher経由のPCクライアントは、ほとんどの最新ゲームパッドをサポートしています。設定 -> 入力メニューでボタンマッピングをカスタマイズできます。"
+  },
+  {
+    question: "PCとモバイルの両方で同じキャラクターをプレイできますか？",
+    answer: "もちろんです。RF Online Nextは完全なクロスプラットフォームMMORPGです。同じNetmarbleアカウントでログインする限り、進行状況、バイオスーツ、聖なる武器は自動的に同期されます。"
+  },
+  {
+    question: "ランチャーのダウンロードが止まった場合はどうすればよいですか？",
+    answer: "まず、ファイアウォール設定を確認して、Netmarble Launcherがインターネットにアクセスする許可があることを確認してください。それでも止まる場合は、ランチャーの設定にある「修復」機能を使用して、ダウンロードされたファイルの整合性を検証してください。"
+  }
+]} />
+
+<Callout type="success" title="最終的な注意点">
+**rf online next netmarble launcher**は、ゲームの最も安定した視覚的に印象的なバージョンを提供するために最適化されています。マイニングウォーで派閥を率いる場合でも、古代遺跡を探索する場合でも、PCクライアントは2026年にプレイする決定的な方法です。
+</Callout>
+
+</Section>

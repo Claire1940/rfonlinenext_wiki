@@ -10,7 +10,13 @@
       "twitterDescription": "RF Online Next guide with launch info, codes, biosuits, Sacred Weapons, PC download help, world bosses, PvP, and beginner tips."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "download": "Download",
+    "requirements": "Requirements",
+    "classes": "Classes",
+    "release": "Release"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -742,5 +748,106 @@
     "copyright": "© 2026 RF Online Next Wiki. Not affiliated with Netmarble, the developer of RF Online Next.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {}
+  "pages": {
+    "guide": {
+      "title": "RF Online Next Guide",
+      "description": "Complete RF Online Next guides covering beginner setup, day-one progression, controls, and long-term growth for PC and mobile players.",
+      "metaTitle": "RF Online Next Guide - Beginner, Progression & Day 1 Tips",
+      "metaDescription": "Master RF Online Next with beginner, day-one, and progression guides covering controls, flight, Biosuits, Sacred Weapons, and early growth on PC and mobile.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What is the RF Online Next Guide?",
+      "whatIsDescription": "The RF Online Next Guide is your starting point for the game. It walks new players through account setup, controls, flight, Biosuit equipping, and early progression so you spend less time lost in menus and more time playing.",
+      "why": "Why read the RF Online Next Guide?",
+      "whySteps": {
+        "step1Title": "Get set up the right way",
+        "step1Description": "Install from official platforms, pick your server, and configure PC controls before your first fight.",
+        "step2Title": "Progress with clear milestones",
+        "step2Description": "Follow level checkpoints, flight and Biosuit tutorials, and main-quest routing instead of guessing what to do next.",
+        "step3Title": "Avoid early mistakes",
+        "step3Description": "Learn which systems to prioritize, how Sacred Weapons work, and where early bottlenecks usually appear."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "download": {
+      "title": "RF Online Next Download",
+      "description": "Official RF Online Next download links for PC, Android, and iOS, including Netmarble Launcher, Epic Games Store, Google Play, and the App Store.",
+      "metaTitle": "RF Online Next Download - PC, Android & iOS Official Links",
+      "metaDescription": "Download RF Online Next from official platforms. Get PC, Netmarble Launcher, Epic Games Store, Google Play, and App Store links and setup steps.",
+      "categoryLabel": "DOWNLOAD",
+      "whatIs": "What is the RF Online Next Download?",
+      "whatIsDescription": "The RF Online Next Download page lists every official install path for PC and mobile. Use these verified platforms to keep your account safe and avoid third-party APK mirrors or copied launcher pages.",
+      "why": "Why download from official sources?",
+      "whySteps": {
+        "step1Title": "Protect your account",
+        "step1Description": "Official platforms keep your purchases, progress, and account data inside the secure Netmarble ecosystem.",
+        "step2Title": "Always get the latest version",
+        "step2Description": "Official stores deliver automatic updates and the current build without risky manual APK installs.",
+        "step3Title": "Cross-platform support",
+        "step3Description": "The same account works across PC and mobile, so pick the platform that fits your play style."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Downloads"
+    },
+    "requirements": {
+      "title": "RF Online Next System Requirements",
+      "description": "Official RF Online Next system requirements for PC, Android, and iOS. Check minimum and recommended specs, storage size, device compatibility, and fixes.",
+      "metaTitle": "RF Online Next System Requirements - PC, Android & iOS Specs",
+      "metaDescription": "Check RF Online Next system requirements for PC, Android, and iOS. Minimum and recommended specs, storage size, device compatibility, and black screen fixes.",
+      "categoryLabel": "SYSTEM REQUIREMENTS",
+      "whatIs": "What are the RF Online Next System Requirements?",
+      "whatIsDescription": "The RF Online Next System Requirements page covers the minimum and recommended hardware for PC, Android, and iOS. It helps you confirm your device can run the game smoothly before downloading.",
+      "why": "Why check system requirements first?",
+      "whySteps": {
+        "step1Title": "Run the game smoothly",
+        "step1Description": "Minimum specs like an Intel i5 8400, 12 GB RAM, and GTX 1060 keep PC gameplay stable at 1080p.",
+        "step2Title": "Plan storage and space",
+        "step2Description": "The PC version needs around 30 GB of free space, so clear room before you start the download.",
+        "step3Title": "Fix common issues",
+        "step3Description": "Check compatibility and black-screen fixes so launch day goes smoothly on your device."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Requirements"
+    },
+    "classes": {
+      "title": "RF Online Next Classes & Tier List",
+      "description": "RF Online Next Biosuit classes, roles, and tier list. Compare the best PvE and PvP classes, learn class swapping, and pick your starter.",
+      "metaTitle": "RF Online Next Classes & Tier List - Best Biosuits Ranked",
+      "metaDescription": "Rank every RF Online Next Biosuit with the class tier list. Compare PvE and PvP value, roles, ranges, and the best starter classes for new players.",
+      "categoryLabel": "CLASSES & TIER LIST",
+      "whatIs": "What are RF Online Next Classes?",
+      "whatIsDescription": "RF Online Next classes are Biosuits, a class system that supports flight, air-and-ground combat, and on-the-fly role switching without restarting your character. Each Biosuit fills a distinct combat role.",
+      "why": "Why use the class tier list?",
+      "whySteps": {
+        "step1Title": "Pick the right starter",
+        "step1Description": "Tier rankings show which Biosuits are easiest and strongest for new players, like Demolisher and Punisher.",
+        "step2Title": "Understand each role",
+        "step2Description": "Compare range, fit, PvE value, and PvP value so you know what each class actually does in a fight.",
+        "step3Title": "Master class swapping",
+        "step3Description": "Owned Biosuits swap freely from the menu, so you can adapt your role to any PvE or PvP situation."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Classes"
+    },
+    "release": {
+      "title": "RF Online Next Release Date",
+      "description": "Official RF Online Next release dates and global launch info, including regional dates, pre-registration rewards, and the global server start time.",
+      "metaTitle": "RF Online Next Release Date - Global Launch & Regional Dates",
+      "metaDescription": "Get the official RF Online Next release date and global launch time, regional release dates, pre-registration rewards, and server start details.",
+      "categoryLabel": "RELEASE DATES",
+      "whatIs": "What is the RF Online Next Release Date?",
+      "whatIsDescription": "The RF Online Next Release Date page confirms the official global launch and regional start times. RF Online Next launched worldwide on June 16, 2026 (PST) and June 17, 2026 (UTC) for PC and mobile.",
+      "why": "Why check the release date?",
+      "whySteps": {
+        "step1Title": "Know the exact launch time",
+        "step1Description": "The global server opened at 02:00 UTC on June 17, 2026, with the PST date landing on June 16.",
+        "step2Title": "Track regional availability",
+        "step2Description": "Find release timing for your region, including English, Europe, Southeast Asia, and other global markets.",
+        "step3Title": "Claim pre-registration rewards",
+        "step3Description": "Pre-registration through official stores qualified accounts for launch rewards delivered via in-game mail."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Info"
+    }
+  }
 }

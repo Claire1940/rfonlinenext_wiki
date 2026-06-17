@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "RF Online Next iOS 요구 사항: 기기 사양 및 호환성",
+  description: "iPhone 또는 iPad에서 원활한 게임 플레이를 위해 RF Online Next의 최소 iOS 요구 사항을 이해하세요. 기기 호환성, 저장 공간 및 OS 버전을 확인하세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/3498db/fff?text=RF+Online+Next+iOS+Requirements",
+  date: "2026-06-17",
+  author: "RF Online Next 위키 팀"
+}
+
+<Callout type="info" title="빠른 가이드">
+- iOS에서 **RF Online Next**를 플레이하려면 기기에 **iOS 15.0 이상**이 필요합니다.
+- iPhone 또는 iPad에 게임을 위한 충분한 **저장 공간**이 있는지 확인하세요.
+- 게임 파일 크기는 초기 다운로드 시 약 **392.5MB**입니다.
+- 최적의 성능을 위해서는 최신 **iPhone 또는 iPad 모델**을 사용하세요.
+- 문제를 피하려면 항상 공식 **App Store**에서 다운로드하세요.
+</Callout>
+
+<Section icon={Map} title="RF Online Next iOS 요구 사항 이해">
+
+넷마블의 SF MMORPG인 RF Online Next는 크로스 플랫폼 플레이를 제공하여 대규모 PvP 전투와 바이오슈트 클래스 전환을 iOS를 포함한 모바일 기기로 확장합니다. Apple 기기에서 원활하고 몰입감 있는 경험을 보장하려면 게임의 특정 iOS 요구 사항을 이해하는 것이 중요합니다. 이 가이드는 일반적인 성능 문제 없이 iPhone 또는 iPad에서 RF Online Next를 플레이하는 데 필요한 사항을 설명합니다.
+
+<Callout type="tip">
+기기의 운영 체제 버전을 확인하는 것이 첫 번째 단계입니다. iPhone 또는 iPad에서 `설정 > 일반 > 정보`로 이동하여 현재 iOS 버전을 찾으세요.
+</Callout>
+
+### 공식 iOS 호환성 개요
+
+RF Online Next의 공식 App Store 목록에는 필요한 최소 운영 체제 버전이 명확하게 명시되어 있습니다. 이는 게임의 핵심 기능을 실행할 수 있는 기기만 설치할 수 있도록 보장합니다.
+
+**비디오 하이라이트:**
+- 모바일 기기에서 초기 게임 실행을 보여줍니다.
+- 터치스크린에서 기본 UI 및 이동을 보여줍니다.
+- 모바일에서 게임 그래픽에 대한 시각적 참조를 제공합니다.
+
+<YouTubeEmbed videoId="RaCfpc0L7fM" title="RF ONLINE NEXT - 모바일 게임 플레이 개요" />
+
+필수 iOS 요구 사항은 다음과 같습니다.
+
+| 요구 사항 | 최소 사양 | 권장 사양 |
+| :---------- | :-------------------- | :------------------------ |
+| **운영 체제** | iOS 15.0 이상 | iOS 16.0 이상 |
+| **기기 유형** | iPhone, iPad | iPhone 12 Pro Max 이상, iPad Air (4세대) 이상 |
+| **저장 공간** | ~400MB (초기 다운로드) | 2GB+ 여유 공간 (업데이트 및 데이터용) |
+| **인터넷 연결** | 안정적인 Wi-Fi 또는 5G | 고속 Wi-Fi |
+| **RAM** | 명시적으로 언급되지 않았지만 4GB+ 권장 | 최적의 성능을 위해 6GB+ |
+
+</Section>
+
+<Section icon={Target} title="iOS 기기 사양 확인">
+
+RF Online Next를 다운로드하기 전에 iPhone 또는 iPad가 필요한 사양을 충족하는지 확인하는 것이 좋습니다. 이는 다운로드 실패, 충돌 또는 불만족스러운 게임 경험을 방지할 수 있습니다.
+
+<Callout type="warning" title="저장 공간 경고">
+초기 다운로드 크기는 약 392.5MB이지만, RF Online Next와 같은 게임은 향후 업데이트, 패치 및 게임 데이터를 위해 상당한 추가 저장 공간을 필요로 하는 경우가 많습니다. 최소 2-3GB의 여유 공간을 확보하는 것이 좋습니다.
+</Callout>
+
+### 기기 정보 확인 방법
+
+다음 단계에 따라 iOS 버전과 사용 가능한 저장 공간을 빠르게 확인하세요.
+
+<Steps>
+  <Step num="1" title="iOS 버전 확인">
+    `설정` > `일반` > `정보`로 이동합니다. "iOS 버전" 또는 "소프트웨어 버전" 항목을 찾습니다. `15.0` 이상인지 확인합니다.
+  </Step>
+  <Step num="2" title="사용 가능한 저장 공간 확인">
+    `설정` > `일반` > `iPhone 저장 공간` (또는 `iPad 저장 공간`)으로 이동합니다. 사용 중인 저장 공간과 사용 가능한 저장 공간이 표시됩니다.
+  </Step>
+  <Step num="3" title="기기 모델 식별">
+    `설정` > `일반` > `정보`에서 "모델명"을 찾아 특정 iPhone 또는 iPad 모델을 식별합니다. 최신 모델은 일반적으로 더 나은 성능을 제공합니다.
+  </Step>
+  <Step num="4" title="필요한 경우 iOS 업데이트">
+    iOS 버전이 15.0 미만인 경우 `설정` > `일반` > `소프트웨어 업데이트`로 이동하여 최신 호환 iOS 버전을 다운로드하고 설치합니다.
+  </Step>
+</Steps>
+
+### 기기 모델 및 성능
+
+iOS 15.0이 최소 요구 사항이지만 RF Online Next의 성능은 구형 및 신형 기기 간에 크게 다를 수 있습니다. 더 강력한 프로세서와 더 높은 RAM을 가진 기기는 특히 대규모 PvP 전투 및 그래픽 집약적인 순간에 더 부드러운 경험을 제공할 것입니다.
+
+| 기기 카테고리 | 예시 | 예상 성능 |
+| :-------------- | :------- | :------------------- |
+| **최고급** | iPhone 13 Pro/14 Pro/15 Pro, iPad Air (5세대), iPad Pro | 탁월, 부드러운 그래픽, 안정적인 프레임 속도 |
+| **중급** | iPhone SE (3세대), iPhone 11/12, iPad (9세대/10세대) | 양호, 중간 설정으로 플레이 가능, 혼잡한 지역에서 가끔 프레임 드롭 |
+| **보급형** | iPhone 8/X/XR, 구형 iPad Air/Mini | 플레이 가능하지만 최저 그래픽 설정 필요, 눈에 띄는 프레임 드롭 |
+
+</Section>
+
+<Section icon={Shield} title="RF Online Next를 위한 iOS 기기 최적화">
+
+기기가 최소 RF Online Next iOS 요구 사항을 충족하더라도 성능을 최적화하고 가능한 최고의 게임 플레이 경험을 보장하기 위해 취할 수 있는 조치가 있습니다.
+
+<Callout type="success" title="성능 향상">
+백그라운드 앱을 닫고 불필요한 데이터를 지우면 특히 구형 기기에서 게임 성능을 크게 향상시킬 수 있습니다.
+</Callout>
+
+### 게임 전 최적화 체크리스트
+
+<Checklist
+  id="ios-optimization"
+  title="기기 최적화:"
+  items={[
+    "RF Online Next를 시작하기 전에 모든 백그라운드 응용 프로그램을 닫습니다.",
+    "기기가 안정적이고 빠른 인터넷 연결(Wi-Fi 또는 5G 권장)에 연결되어 있는지 확인합니다.",
+    "사용하지 않는 앱, 사진 또는 비디오를 삭제하여 저장 공간을 확보합니다.",
+    "저전력 모드는 CPU 성능을 저하시킬 수 있으므로 비활성화합니다.",
+    "긴 게임 세션 전에 기기를 다시 시작하여 RAM을 지웁니다.",
+    "성능 개선 및 버그 수정의 이점을 얻기 위해 iOS 버전을 최신으로 유지합니다."
+  ]}
+/>
+
+### 게임 내 설정 조정
+
+RF Online Next는 다른 많은 최신 MMORPG와 마찬가지로 다양한 게임 내 그래픽 설정을 제공할 것입니다. 이러한 설정을 조정하면 특정 iOS 기기에서 시각적 품질과 성능의 균형을 맞출 수 있습니다.
+
+| 설정 카테고리 | 저사양 기기 권장 | 고사양 기기 권장 | 성능에 미치는 영향 |
+| :--------------- | :-------------------------------- | :--------------------------------- | :-------------------- |
+| **그래픽 품질** | 낮음 | 높음 | 주요 |
+| **해상도 스케일** | 75% - 85% | 100% | 주요 |
+| **프레임 속도 제한** | 30 FPS | 60 FPS | 보통 |
+| **그림자 품질** | 끄기 / 낮음 | 높음 | 보통 |
+| **파티클 효과** | 낮음 | 높음 | 미미함 |
+
+</Section>
+
+<Section icon={Sparkles} title="iOS에서 RF Online Next 다운로드">
+
+RF Online Next 다운로드는 공식 Apple App Store를 통해 간단하게 할 수 있습니다. 항상 공식 채널을 사용하여 정품 및 최신 버전의 게임을 받도록 하세요.
+
+<Callout type="info">
+RF Online Next의 공식 App Store 페이지는 다운로드 및 설치를 위한 가장 신뢰할 수 있는 소스이며, 앱 무결성 및 보안을 보장합니다.
+</Callout>
+
+### 공식 다운로드 프로세스
+
+App Store 목록은 버전, 크기 및 지원 언어를 포함하여 게임에 대한 중요한 정보를 제공합니다.
+
+| 세부 정보 | 값 |
+| :----- | :---- |
+| **App Store 링크** | [App Store의 RF Online Next](https://apps.apple.com/hk/app/rf-online-next/id6740848451?l=en-GB) |
+| **현재 버전** | 1.27.12 |
+| **파일 크기** | 392.5 MB |
+| **지원 언어** | 영어, 일본어, 한국어, 번체 중국어 |
+| **가격** | 인앱 구매가 있는 무료 |
+
+다운로드하려면 App Store에서 "RF Online Next"를 검색하고 "받기"를 탭한 다음 Face ID, Touch ID 또는 Apple ID 암호로 인증하기만 하면 됩니다.
+
+</Section>
+
+<Section icon={Trophy} title="RF Online Next iOS 요구 사항에 대한 자주 묻는 질문">
+
+<FAQ items={[
+  {
+    question: "RF Online Next에 필요한 최소 iOS 버전은 무엇입니까?",
+    answer: "RF Online Next는 iPhone 또는 iPad에서 실행하려면 iOS 15.0 이상이 필요합니다. 호환성을 위해 기기가 최소 이 버전으로 업데이트되었는지 확인하십시오."
+  },
+  {
+    question: "RF Online Next는 iOS에서 얼마의 저장 공간이 필요합니까?",
+    answer: "RF Online Next의 초기 다운로드 크기는 약 392.5MB입니다. 그러나 향후 업데이트 및 게임 데이터를 위해 최소 2-3GB의 여유 공간을 확보하는 것이 좋습니다."
+  },
+  {
+    question: "구형 iPhone 또는 iPad에서 RF Online Next를 플레이할 수 있습니까?",
+    answer: "iOS 15.0 이상을 실행하는 기기는 기술적으로 호환되지만, 구형 모델은 성능 문제가 발생할 수 있습니다. 최상의 경험을 위해서는 최신 iPhone(12 이상) 또는 iPad(Air 4세대 이상)를 권장합니다."
+  },
+  {
+    question: "iOS용 RF Online Next는 어디에서 다운로드할 수 있습니까?",
+    answer: "RF Online Next는 공식 Apple App Store에서만 다운로드해야 합니다. 이렇게 하면 정품 게임 버전과 업데이트에 액세스할 수 있습니다."
+  },
+  {
+    question: "RF Online Next가 iOS 기기에서 느리게 실행되면 어떻게 해야 합니까?",
+    answer: "백그라운드 앱을 닫고, 저장 공간을 확보하고, 기기를 다시 시작하고, 게임 내 그래픽 설정을 '낮음'으로 조정해 보세요. 안정적인 인터넷 연결이 되어 있는지 확인하십시오."
+  }
+]} />
+
+</Section>

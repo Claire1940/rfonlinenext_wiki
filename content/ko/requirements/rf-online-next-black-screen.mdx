@@ -1,0 +1,208 @@
+import { Monitor, Wrench, Shield, AlertTriangle, Lightbulb, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "RF Online Next 검은 화면: 문제 해결 및 수정",
+  description: "RF Online Next 검은 화면 문제의 일반적인 원인, 문제 해결 단계 및 PC 플레이어를 위한 고급 솔루션을 다루는 포괄적인 가이드로 문제를 해결하세요.",
+  category: "문제 해결",
+  image: "https://placehold.co/800x400/31363F/EEEEEE?text=RF+Online+Next+Black+Screen",
+  date: "2026-06-17",
+  author: "RF Online Next 위키 팀"
+}
+
+<Callout type="info" title="빠른 가이드">
+- **RF Online Next 검은 화면** 문제는 종종 오래된 드라이버나 게임 파일에서 비롯됩니다.
+- 항상 런처를 통해 **게임 파일을 확인**하십시오.
+- 최적의 성능을 위해 **그래픽 드라이버**를 최신 버전으로 업데이트하십시오.
+- PC가 게임 사양을 충족하는지 **시스템 요구 사항**을 확인하십시오.
+- **호환 모드** 또는 관리자 권한으로 게임을 실행하는 것을 고려하십시오.
+</Callout>
+
+<Section icon={Monitor} title="RF Online Next 검은 화면 문제 이해하기">
+
+RF Online Next에서 검은 화면이 나타나는 것은 답답할 수 있지만, 이는 종종 심각한 게임 버그보다는 일반적인 소프트웨어 또는 하드웨어 충돌의 증상입니다. 이 문제는 일반적으로 게임이 올바르게 실행되지 않거나 게임 플레이 중에 화면이 비어 있게 만듭니다. 안정적인 게임 경험을 위해 근본 원인을 파악하는 것이 첫 번째 단계입니다.
+
+많은 검은 화면 문제는 그래픽 카드 드라이버, 오래된 게임 파일 또는 시스템에서 실행 중인 다른 소프트웨어와의 충돌과 관련이 있습니다. 시스템적인 문제 해결을 통해 다시 게임을 즐길 수 있도록 도와드리겠습니다.
+
+<Callout type="warning" title="시작하기 전에">
+중요한 변경 사항을 적용하기 전에 항상 **중요한 게임 파일** 또는 시스템 구성을 **백업**하십시오. 다음 단계는 일반적으로 안전하지만 예기치 않은 문제가 발생할 수 있습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="초기 문제 해결 단계">
+
+가장 일반적인 검은 화면 발생을 해결하는 데 도움이 되는 기본적인 확인부터 시작하십시오.
+
+<Steps>
+  <Step num="1" title="게임 파일 확인">
+    손상되거나 누락된 게임 파일은 실행 문제의 흔한 원인입니다.
+    - **넷마블 런처**: 런처를 열고 RF Online Next로 이동하여 "확인" 또는 "복구" 옵션을 찾으십시오.
+    - **에픽게임즈 스토어**: 라이브러리로 이동하여 RF Online Next 옆에 있는 점 세 개를 클릭하고 "확인"을 선택하십시오.
+    이 과정은 게임 설치의 무결성을 확인하고 손상된 파일을 교체합니다.
+  </Step>
+  <Step num="2" title="그래픽 드라이버 업데이트">
+    오래된 그래픽 드라이버는 검은 화면과 같은 디스플레이 관련 문제의 주요 원인입니다.
+    - **NVIDIA**: GeForce Experience 앱을 다운로드하거나 공식 NVIDIA 드라이버 다운로드 페이지를 방문하십시오.
+    - **AMD**: AMD Radeon 소프트웨어를 사용하거나 공식 AMD 드라이버 다운로드 페이지를 방문하십시오.
+    - **Intel**: Intel Driver & Support Assistant를 다운로드하거나 공식 Intel 그래픽 드라이버 페이지를 방문하십시오.
+    최신 드라이버를 클린 설치했는지 확인하십시오.
+  </Step>
+  <Step num="3" title="시스템 요구 사항 확인">
+    RF Online Next의 최소 및 권장 사양을 PC가 충족하는지 확인하십시오.
+    - **최소**: Intel i5 8400 CPU, 12 GB RAM, NVIDIA GeForce GTX 1060 GPU, Windows 10 64비트, 30 GB 저장 공간, DirectX 12.
+    - **권장**: Intel i5 12400 CPU, 16 GB RAM, NVIDIA GeForce RTX 2060 GPU, Windows 10 64비트, 30 GB 저장 공간, DirectX 12.
+    시스템이 최소 요구 사항을 겨우 충족하는 경우 검은 화면을 포함한 성능 문제가 발생할 수 있습니다.
+  </Step>
+  <Step num="4" title="관리자 권한 및 호환 모드로 실행">
+    때로는 권한 문제로 인해 게임이 필요한 시스템 리소스에 액세스하지 못할 수 있습니다.
+    - RF Online Next 실행 파일(또는 바로 가기)을 마우스 오른쪽 버튼으로 클릭하십시오.
+    - "관리자 권한으로 실행"을 선택하십시오.
+    - 문제가 지속되면 다시 마우스 오른쪽 버튼을 클릭하고 "속성"으로 이동한 다음 "호환성"을 선택하십시오.
+    - 이전 버전의 Windows(예: Windows 8) 호환 모드에서 게임을 실행해 보십시오.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+각 문제 해결 단계 후에 컴퓨터를 다시 시작하고 RF Online Next를 실행하여 문제가 해결되었는지 확인하십시오. 이는 문제를 격리하는 데 도움이 됩니다.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="지속적인 검은 화면을 위한 고급 솔루션">
+
+기본적인 단계로 해결되지 않았다면, 다음 고급 솔루션이 문제의 원인을 파악하고 해결하는 데 도움이 될 수 있습니다.
+
+### 인게임 그래픽 설정 조정
+
+검은 화면에도 불구하고 잠시 게임에 접속하거나 오디오를 들을 수 있다면 그래픽 설정을 조정해 보십시오.
+
+| 설정 카테고리    | 권장 변경 사항                                      | 검은 화면에 미치는 영향       |
+|:-----------------|:----------------------------------------------------|:----------------------------|
+| **해상도**       | 기본 모니터 해상도 또는 일반적인 1080p/720p 설정으로 낮추기 | 디스플레이 모드 충돌 해결     |
+| **표시 모드**    | 전체 화면에서 창 모드 또는 테두리 없는 창 모드로 전환 | 전체 화면 문제 해결에 도움   |
+| **그래픽 품질**  | "낮음" 또는 "보통" 사전 설정으로 설정                | GPU 부하 감소, 충돌 방지     |
+| **수직 동기화**  | 처음에는 비활성화하고, 다른 문제가 발생하면 활성화     | 화면 찢어짐 및 입력 지연 방지 가능, 때로는 충돌 발생 |
+| **DirectX 버전** | 가능하다면 DirectX 11과 DirectX 12 사이에서 전환    | API 호환성 문제 해결        |
+
+<Callout type="info" title="설정을 보지 않고 액세스">
+게임을 볼 수 없다면 `Alt + Enter`를 눌러 창 모드로 전환해 보십시오. 그러면 그래픽 설정으로 이동할 수 있을 것입니다. 그렇지 않다면, 게임 설치 디렉토리에 있는 게임 구성 파일을 확인하여 수동으로 조정하십시오.
+</Callout>
+
+### 백그라운드 애플리케이션 관리
+
+다른 프로그램이 RF Online Next와 충돌하여 검은 화면이나 충돌을 일으킬 수 있습니다.
+
+| 애플리케이션 유형   | 권장 조치                       | 이유                                         |
+|:--------------------|:--------------------------------|:---------------------------------------------|
+| **오버레이 소프트웨어** | 비활성화 (Discord 오버레이, NVIDIA GeForce Experience 오버레이, Steam 오버레이) | 게임과 렌더링 충돌을 일으킬 수 있습니다    |
+| **안티바이러스/방화벽** | 일시적으로 비활성화하거나 게임을 예외에 추가 | 게임의 네트워크 액세스 또는 파일 작업을 차단할 수 있습니다 |
+| **모니터링 도구**    | 닫기 (MSI Afterburner, RivaTuner, Fraps) | GPU 기능 및 게임 렌더링을 방해할 수 있습니다 |
+| **VPN/프록시**      | 게임 액세스에 필요하지 않으면 비활성화 | 디스플레이 문제로 이어지는 연결 문제를 일으킬 수 있습니다 |
+
+<Checklist
+  id="background-apps"
+  title="RF Online Next 실행 전:"
+  items={[
+    "불필요한 모든 백그라운드 애플리케이션을 닫으십시오.",
+    "모든 게임 오버레이(Discord, Steam, NVIDIA)를 비활성화하십시오.",
+    "안티바이러스 소프트웨어를 일시적으로 비활성화하십시오(안전한 경우).",
+    "지역에 필요하지 않다면 VPN이 꺼져 있는지 확인하십시오."
+  ]}
+/>
+
+</Section>
+
+<Section icon={AlertTriangle} title="잠재적인 하드웨어 또는 소프트웨어 충돌">
+
+검은 화면은 시스템 하드웨어 또는 소프트웨어 구성에 더 깊은 문제가 있음을 나타낼 수도 있습니다.
+
+### 과열되는 부품
+
+과열되는 CPU 또는 GPU는 시스템 불안정을 유발하여 충돌 또는 검은 화면으로 이어질 수 있습니다.
+- **온도 모니터링**: HWMonitor 또는 MSI Afterburner와 같은 소프트웨어를 사용하여 게임 플레이 중 CPU 및 GPU 온도를 확인하십시오.
+- **냉각 개선**: PC 팬이 깨끗하고 제대로 작동하는지 확인하십시오. 케이스 내부의 공기 흐름을 개선하는 것을 고려하십시오.
+
+### 손상된 Windows 파일
+
+시스템 파일 손상은 게임 성능 및 안정성에 영향을 미칠 수 있습니다.
+- **SFC 스캔 실행**: 관리자 권한으로 명령 프롬프트를 열고 `sfc /scannow`를 입력하십시오. 이는 손상된 Windows 시스템 파일을 검색하고 복구합니다.
+- **DISM 도구 실행**: SFC가 실패하면 명령 프롬프트(관리자)에서 `DISM /Online /Cleanup-Image /RestoreHealth`를 사용하여 Windows 이미지를 복구하십시오.
+
+### 전원 공급 장치(PSU) 문제
+
+불충분하거나 고장난 PSU는 특히 부하 시 전원 공급 문제를 일으켜 검은 화면을 유발할 수 있습니다.
+- **PSU 와트 확인**: PSU가 모든 구성 요소, 특히 그래픽 카드에 충분한 와트를 제공하는지 확인하십시오.
+- **연결 검사**: GPU 및 마더보드에 연결된 모든 전원 케이블이 단단히 연결되어 있는지 확인하십시오.
+
+<CardGrid cols={2}>
+  <Card title="그래픽 카드 확인">
+    **증상**: 검은 화면, 시끄러운 팬 소음, 시스템 멈춤.
+    **조치**: PCIe 슬롯에 제대로 장착되었는지, 전원 커넥터가 연결되었는지 확인하고, 가능하면 다른 GPU로 테스트하십시오.
+  </Card>
+  <Card title="메모리(RAM) 테스트">
+    **증상**: 무작위 충돌, 검은 화면, 시스템 재부팅.
+    **조치**: Windows 메모리 진단 도구 또는 MemTest86을 실행하여 RAM 스틱에 결함이 있는지 확인하십시오.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="드라이버 롤백">
+최근 드라이버 업데이트로 인해 검은 화면이 발생했다면, 그래픽 드라이버를 이전 안정 버전으로 롤백하는 것을 고려해 보십시오. 이는 장치 관리자를 통해 수행할 수 있습니다.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="추가 지원을 요청할 때">
+
+모든 문제 해결 단계를 시도했지만 RF Online Next 검은 화면 문제가 지속된다면, 전문적인 도움을 요청할 때입니다.
+
+### 넷마블 고객지원팀에 문의
+
+공식 지원 채널은 게임 관련 문제에 대한 최선의 방법입니다.
+- **공식 포럼**: 넷마블은 RF Online Next에 대한 활발한 공식 포럼을 운영하고 있습니다. 다른 플레이어가 보고한 유사한 문제를 확인하거나 자세한 문제를 게시하십시오.
+  - URL: [https://forum.netmarble.com/rfonlinenext_gl](https://forum.netmarble.com/rfonlinenext_gl)
+- **지원 티켓**: 넷마블 고객 서비스 포털을 통해 자세한 지원 티켓을 제출하십시오. 가능한 한 많은 정보를 제공하십시오:
+    - PC 사양 (CPU, GPU, RAM, OS 버전).
+    - 이미 시도한 문제 해결 단계.
+    - 검은 화면이 시작된 시점 (예: 업데이트 후, 첫 실행).
+    - 받은 오류 메시지.
+
+### 커뮤니티 리소스
+
+때로는 동료 플레이어들이 독특한 해결책이나 우회책을 발견하기도 합니다.
+- **공식 Discord**: RF Online Next 공식 Discord 서버에 가입하십시오. 많은 플레이어와 커뮤니티 관리자가 도움을 제공할 수 있습니다.
+  - URL: [https://discord.gg/rfonlinenext](https://discord.gg/rfonlinenext)
+- **Reddit 커뮤니티**: 일반 MMORPG 서브레딧 또는 특정 RF Online 커뮤니티에 귀하의 문제와 관련된 토론이 있을 수 있습니다.
+  - URL: [https://www.reddit.com/r/MMORPG/](https://www.reddit.com/r/MMORPG/)
+  - URL: [https://www.reddit.com/r/RFOnline/](https://www.reddit.com/r/RFOnline/)
+
+</Section>
+
+<Section icon={Lightbulb} title="FAQ: RF Online Next 검은 화면">
+
+<FAQ items={[
+  {
+    question: "RF Online Next를 실행할 때만 검은 화면이 나타나는 이유는 무엇입니까?",
+    answer: "이는 종종 그래픽 드라이버, 디스플레이 설정 또는 손상된 게임 파일과의 충돌을 나타냅니다. 게임 무결성을 확인하고 그래픽 드라이버를 업데이트하는 것부터 시작하십시오."
+  },
+  {
+    question: "안티바이러스 소프트웨어가 RF Online Next에서 검은 화면을 유발할 수 있습니까?",
+    answer: "예, 때로는 지나치게 공격적인 안티바이러스 또는 방화벽 소프트웨어가 게임 프로세스를 잘못 차단하여 실행 실패 또는 검은 화면을 유발할 수 있습니다. 일시적으로 비활성화하거나 게임에 대한 예외를 추가하면 도움이 될 수 있습니다."
+  },
+  {
+    question: "게임 오디오는 들리는데 검은 화면만 보이면 어떻게 해야 합니까?",
+    answer: "이는 일반적으로 디스플레이 출력 문제를 나타냅니다. `Alt + Enter`를 눌러 창 모드로 전환해 보십시오. 작동한다면, 게임 내 해상도 및 디스플레이 모드 설정을 조정하십시오."
+  },
+  {
+    question: "RF Online Next 검은 화면 문제가 운영 체제와 관련이 있습니까?",
+    answer: "가능성이 있습니다. 오래된 Windows 버전 또는 손상된 시스템 파일은 불안정성을 유발할 수 있습니다. Windows가 완전히 업데이트되었는지 확인하고 시스템 파일 무결성을 확인하기 위해 SFC 및 DISM 스캔을 실행하는 것을 고려하십시오."
+  }
+]} />
+
+</Section>
