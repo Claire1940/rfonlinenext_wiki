@@ -1,10 +1,11 @@
 "use client";
 
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useState } from "react";
 import {
   ArrowRight,
   BookOpen,
   Check,
+  ChevronDown,
   ExternalLink,
   Sparkles,
 } from "lucide-react";
@@ -58,6 +59,74 @@ function LinkedTitle({
     );
   }
   return <>{children}</>;
+}
+
+// PvP warfare accordion - 独立模块 section，客户端展开/折叠交互
+function PvpAccordion({
+  items,
+}: {
+  items: Array<{
+    icon: string;
+    label: string;
+    content: string;
+    keyPoints?: string[];
+  }>;
+}) {
+  const [openIndex, setOpenIndex] = useState<number | null>(0);
+
+  return (
+    <div className="scroll-reveal space-y-3">
+      {items.map((item, index) => {
+        const isOpen = openIndex === index;
+        return (
+          <div
+            key={index}
+            className="border border-border rounded-xl bg-white/5 overflow-hidden transition-colors hover:border-[hsl(var(--nav-theme)/0.5)]"
+          >
+            <button
+              type="button"
+              onClick={() => setOpenIndex(isOpen ? null : index)}
+              className="flex w-full items-center gap-3 p-4 md:p-5 text-left"
+              aria-expanded={isOpen}
+            >
+              <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                <DynamicIcon
+                  name={item.icon}
+                  className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                />
+              </span>
+              <span className="flex-1 font-semibold text-sm md:text-base">
+                {item.label}
+              </span>
+              <ChevronDown
+                className={`h-5 w-5 flex-shrink-0 text-muted-foreground transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
+              />
+            </button>
+            {isOpen && (
+              <div className="px-4 md:px-5 pb-4 md:pb-5">
+                <p className="mb-3 text-sm md:text-base text-muted-foreground">
+                  {item.content}
+                </p>
+                {item.keyPoints && item.keyPoints.length > 0 && (
+                  <ul className="space-y-1.5">
+                    {item.keyPoints.map((kp, kpi) => (
+                      <li
+                        key={kpi}
+                        className="flex items-start gap-2 text-xs md:text-sm text-muted-foreground"
+                      >
+                        <Check className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                        {kp}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
 }
 
 interface HomePageClientProps {
@@ -246,7 +315,7 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Tools Grid - 4 Navigation Cards（位于视频区之后、Latest Updates 之前） */}
+      {/* Tools Grid - 8 Navigation Cards（位于视频区之后、Latest Updates 之前） */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="mb-8 md:mb-12 text-center scroll-reveal">
@@ -269,6 +338,10 @@ export default function HomePageClient({
                 "codes-rewards",
                 "beginner-guide",
                 "biosuit-tier-list",
+                "build-progression",
+                "sacred-weapons",
+                "pvp-warfare",
+                "pve-roadmap",
               ];
               const sectionId = sectionIds[index];
 
@@ -655,6 +728,287 @@ export default function HomePageClient({
               </div>
             );
           })}
+        </div>
+      </section>
+
+      {/* 广告位: 模块4之后的阅读停顿位（移动端方形 + 桌面端横幅） */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 5: Best Builds, Skills and Gear Progression (step-by-step with priority badges) */}
+      <section id="build-progression" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="mb-8 md:mb-12 text-center scroll-reveal">
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              <LinkedTitle
+                linkData={moduleLinkMap["rfOnlineNextBuildProgression"]}
+                locale={locale}
+              >
+                {t.modules.rfOnlineNextBuildProgression.title}
+              </LinkedTitle>
+            </h2>
+            <p className="mx-auto max-w-3xl text-base md:text-lg text-muted-foreground">
+              {t.modules.rfOnlineNextBuildProgression.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3 md:space-y-4">
+            {t.modules.rfOnlineNextBuildProgression.steps.map(
+              (step: any, index: number) => {
+                const priority = step.priority;
+                const priorityBadge =
+                  priority === "Core"
+                    ? "bg-[hsl(var(--nav-theme))] text-black"
+                    : priority === "High"
+                      ? "bg-[hsl(var(--nav-theme)/0.7)] text-black"
+                      : "bg-white/10 text-foreground border border-border";
+                return (
+                  <div
+                    key={index}
+                    className="flex flex-col gap-3 md:flex-row md:gap-5 p-4 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-center gap-3 md:w-28 md:flex-shrink-0 md:flex-col md:items-start md:gap-2">
+                      <span className="flex h-10 w-10 md:h-12 md:w-12 flex-shrink-0 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-[hsl(var(--nav-theme)/0.2)] text-base md:text-xl font-bold text-[hsl(var(--nav-theme-light))]">
+                        {index + 1}
+                      </span>
+                      <span
+                        className={`text-xs px-2.5 py-1 rounded-full font-semibold ${priorityBadge}`}
+                        title={
+                          t.modules.rfOnlineNextBuildProgression.priorityLabels?.[
+                            priority
+                          ]
+                        }
+                      >
+                        {priority}
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-lg md:text-xl font-bold mb-1.5 md:mb-2">
+                        {step.title}
+                      </h3>
+                      <p className="mb-3 text-sm md:text-base text-muted-foreground">
+                        {step.summary}
+                      </p>
+                      {step.details?.length > 0 && (
+                        <ul className="space-y-1.5">
+                          {step.details.map((det: string, di: number) => (
+                            <li
+                              key={di}
+                              className="flex items-start gap-2 text-sm text-muted-foreground"
+                            >
+                              <Check className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                              {det}
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  </div>
+                );
+              },
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 模块5之后 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-728x90"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        className="hidden md:flex"
+      />
+
+      {/* Module 6: Sacred Weapons Guide (card-list) */}
+      <section
+        id="sacred-weapons"
+        className="scroll-mt-24 px-4 py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="mb-12 text-center scroll-reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle
+                linkData={moduleLinkMap["rfOnlineNextSacredWeapons"]}
+                locale={locale}
+              >
+                {t.modules.rfOnlineNextSacredWeapons.title}
+              </LinkedTitle>
+            </h2>
+            <p className="mx-auto max-w-3xl text-lg text-muted-foreground">
+              {t.modules.rfOnlineNextSacredWeapons.intro}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 scroll-reveal">
+            {t.modules.rfOnlineNextSacredWeapons.cards.map(
+              (card: any, index: number) => (
+                <div
+                  key={index}
+                  className="flex flex-col p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                >
+                  <div className="mb-3 flex items-center gap-3">
+                    <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                      <DynamicIcon
+                        name={card.icon}
+                        className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                      />
+                    </span>
+                    <div>
+                      <h3 className="font-bold text-lg leading-tight">
+                        {card.name}
+                      </h3>
+                      <p className="text-xs text-muted-foreground">{card.role}</p>
+                    </div>
+                  </div>
+                  <span className="mb-3 self-start text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                    {card.type}
+                  </span>
+                  <p className="mb-3 text-sm text-muted-foreground">
+                    {card.description}
+                  </p>
+                  {card.bestUsed?.length > 0 && (
+                    <ul className="mb-3 space-y-1.5">
+                      {card.bestUsed.map((use: string, ui: number) => (
+                        <li
+                          key={ui}
+                          className="flex items-start gap-2 text-xs text-muted-foreground"
+                        >
+                          <Check className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                          {use}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  {card.playNote && (
+                    <p className="mt-auto text-xs italic text-[hsl(var(--nav-theme-light))]">
+                      {card.playNote}
+                    </p>
+                  )}
+                </div>
+              ),
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 模块6之后 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 7: PvP, Battlegrounds and Mining War (accordion) */}
+      <section id="pvp-warfare" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="mb-8 md:mb-12 text-center scroll-reveal">
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              <LinkedTitle
+                linkData={moduleLinkMap["rfOnlineNextPvpWarfare"]}
+                locale={locale}
+              >
+                {t.modules.rfOnlineNextPvpWarfare.title}
+              </LinkedTitle>
+            </h2>
+            <p className="mx-auto max-w-3xl text-base md:text-lg text-muted-foreground">
+              {t.modules.rfOnlineNextPvpWarfare.intro}
+            </p>
+          </div>
+
+          <PvpAccordion items={t.modules.rfOnlineNextPvpWarfare.items} />
+        </div>
+      </section>
+
+      {/* 广告位: 模块7之后 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-728x90"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        className="hidden md:flex"
+      />
+
+      {/* Module 8: World Bosses, Dungeons and Main Quests (table) */}
+      <section
+        id="pve-roadmap"
+        className="scroll-mt-24 px-4 py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="mb-12 text-center scroll-reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle
+                linkData={moduleLinkMap["rfOnlineNextPveRoadmap"]}
+                locale={locale}
+              >
+                {t.modules.rfOnlineNextPveRoadmap.title}
+              </LinkedTitle>
+            </h2>
+            <p className="mx-auto max-w-3xl text-lg text-muted-foreground">
+              {t.modules.rfOnlineNextPveRoadmap.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm md:text-base">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.1)] text-left">
+                  {t.modules.rfOnlineNextPveRoadmap.tableHeaders.map(
+                    (header: string, hi: number) => (
+                      <th
+                        key={hi}
+                        className="px-4 py-3 font-semibold whitespace-nowrap"
+                      >
+                        {header}
+                      </th>
+                    ),
+                  )}
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.rfOnlineNextPveRoadmap.rows.map(
+                  (row: any, index: number) => (
+                    <tr
+                      key={index}
+                      className="border-t border-border align-top hover:bg-white/[0.03]"
+                    >
+                      <td className="px-4 py-3 font-medium">{row.milestone}</td>
+                      <td className="px-4 py-3">
+                        <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">
+                          {row.type}
+                        </span>
+                      </td>
+                      <td className="px-4 py-3 text-muted-foreground">
+                        {row.goal}
+                      </td>
+                      <td className="px-4 py-3 text-muted-foreground">
+                        {row.reward}
+                      </td>
+                    </tr>
+                  ),
+                )}
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 

@@ -79,6 +79,26 @@
         "icon": "Users",
         "title": "RF Online Next Biosuit Tier List",
         "description": "Class roles, ranges, PvE and PvP value, and starter picks"
+      },
+      {
+        "icon": "Hammer",
+        "title": "RF Online Next Build Guide",
+        "description": "Biosuit priorities, gear enhancement, skill growth, collection stats and Rovers"
+      },
+      {
+        "icon": "Rocket",
+        "title": "RF Online Next Sacred Weapons",
+        "description": "MAU, Launcher and Animus battlefield roles, timing and deployment"
+      },
+      {
+        "icon": "Swords",
+        "title": "RF Online Next PvP Guide",
+        "description": "Faction War, Mining War, Holy Stone Keeper, flight and mercenary rules"
+      },
+      {
+        "icon": "Map",
+        "title": "RF Online Next PvE Roadmap",
+        "description": "World bosses, dungeon types, main quests and level milestones"
       }
     ]
   },
@@ -374,6 +394,296 @@
           "pve": "Hybrid damage routes, flexible quest combat",
           "pvp": "Pressure tools, flexible skirmishing",
           "note": "A flexible combat pick rather than the simplest starter, because hybrid range asks for careful positioning."
+        }
+      ]
+    },
+    "rfOnlineNextBuildProgression": {
+      "title": "RF Online Next Best Builds, Skills and Gear Progression",
+      "intro": "RF Online Next progression is built around flexible Biosuit swapping instead of a one-class lock-in. The safest build plan is to keep one main combat role strong, unlock practical swap options, and fix gear and passive stat gaps before spreading upgrade resources across every shiny menu button the game throws at you.",
+      "priorityLabels": {
+        "Core": "Core priority",
+        "High": "High priority",
+        "Medium": "Medium priority"
+      },
+      "steps": [
+        {
+          "title": "Choose one main damage Biosuit first",
+          "priority": "Core",
+          "summary": "Start by investing around the Biosuit you actually use for main quests, dungeons and boss contribution.",
+          "details": [
+            "Each Biosuit has unique effects, and owned Biosuits can be swapped freely from the Biosuit menu.",
+            "Firepower suits such as Demolisher and Punisher are practical mid-to-long-range physical attack anchors for early solo progress.",
+            "Treat other Biosuits as swap tools until your main route has stable gear, skills and passive stats."
+          ]
+        },
+        {
+          "title": "Use swapping for roles, not random spending",
+          "priority": "Core",
+          "summary": "Biosuit swapping lets you change combat style for the situation while keeping equipment and skill growth relevant.",
+          "details": [
+            "Use a damage suit for quest clearing and routine farming.",
+            "Keep a defensive, evasive or support-leaning swap option ready for PvP, party play and awkward boss patterns.",
+            "Avoid splitting upgrade materials evenly across every Biosuit early."
+          ]
+        },
+        {
+          "title": "Fix gear enhancement before chasing side systems",
+          "priority": "High",
+          "summary": "When main quest progress slows or monsters start hitting too hard, upgrade equipped gear before blaming the class.",
+          "details": [
+            "Equipment Enhancement includes Enhance, Batch Enhance, Prime Mod and Random Option layers.",
+            "Early bottlenecks are usually solved faster by bringing active equipment through safe enhancement than by gambling on a new setup.",
+            "Use the Equipment Enhancement menu to keep your active route upgraded before pushing lower-impact side growth."
+          ]
+        },
+        {
+          "title": "Raise skill power on the skills you actually cast",
+          "priority": "High",
+          "summary": "Skill growth matters because the game supports Adding Skills, Skill Enhancements, Add-Ons and Finishing Skills.",
+          "details": [
+            "Prioritize the active skills used by your main Biosuit route.",
+            "Add-ons should support your job in that fight: damage uptime for farming, control or survival for PvP, and burst windows for bosses.",
+            "Do not overbuild unused skills just because the menu has a red dot."
+          ]
+        },
+        {
+          "title": "Complete collection stats with attack and accuracy first",
+          "priority": "High",
+          "summary": "Collection progress gives passive stat value, and attack plus accuracy are the cleanest early priorities for damage consistency.",
+          "details": [
+            "Attack increases damage output directly.",
+            "Accuracy matters because missed or unreliable hits waste every other damage upgrade.",
+            "After attack and accuracy, branch into durability, evasion or role-specific stats based on your bottleneck."
+          ]
+        },
+        {
+          "title": "Use Rovers as passive growth, not decoration",
+          "priority": "Medium",
+          "summary": "Rovers function like floating companion units and can provide practical stat and utility bonuses.",
+          "details": [
+            "Rover systems include Rover, Fuse, Collection, Finalize, Tuning, Rover Workshop and Rover Burst.",
+            "Rover bonuses include growth-friendly effects such as EXP gain, healing item capacity and attack-related stats.",
+            "Keep Rover growth aligned with your main build instead of treating companions as cosmetic extras."
+          ]
+        }
+      ]
+    },
+    "rfOnlineNextSacredWeapons": {
+      "title": "RF Online Next Sacred Weapons Guide",
+      "intro": "Sacred Weapons are not normal gear slots. They are battlefield-scale tools built for timing, positioning and objective pressure, especially when large-scale PvP, boss raids and aerial combat decide a fight.",
+      "cards": [
+        {
+          "icon": "Bot",
+          "name": "MAU",
+          "type": "Piloted Sacred Weapon",
+          "role": "Frontline assault and direct control",
+          "description": "MAU stands for Mechanic Armor Unit, a large-scale weapon that players directly pilot and control.",
+          "bestUsed": [
+            "Charging enemy lines",
+            "Putting pressure on defensive formations",
+            "Creating a frontline threat in large engagements"
+          ],
+          "playNote": "Use MAU when direct pressure matters more than subtle positioning."
+        },
+        {
+          "icon": "Rocket",
+          "name": "Launcher",
+          "type": "Heavy fire-support Sacred Weapon",
+          "role": "Precise ranged firepower and defensive break pressure",
+          "description": "Launcher unleashes precise, devastating firepower and helps obliterate enemy defenses or cut off retreat routes.",
+          "bestUsed": [
+            "Ranged pressure against grouped enemies",
+            "Breaking defensive lines",
+            "Supporting pushes around objectives"
+          ],
+          "playNote": "Deploy Launcher where its firepower can cover a lane, objective or retreat path instead of wasting it in empty space."
+        },
+        {
+          "icon": "Atom",
+          "name": "Animus",
+          "type": "Summoned Sacred Weapon",
+          "role": "Large-scale burst presence and battlefield control",
+          "description": "Animus is an immense and powerful Sacred Weapon that can be summoned to seize control of the battlefield.",
+          "bestUsed": [
+            "Turning major fight moments",
+            "Forcing enemies to reposition",
+            "Adding decisive pressure when a group fight stalls"
+          ],
+          "playNote": "Save Animus-style pressure for moments that decide the fight rather than disposable skirmishes."
+        },
+        {
+          "icon": "Target",
+          "name": "Sacred Weapon Deployment",
+          "type": "Achievement-linked usage goal",
+          "role": "Practice milestone",
+          "description": "The game's achievements include Steely Watcher for completing Sacred Weapon Deployment five times.",
+          "bestUsed": [
+            "Learning deployment timing",
+            "Understanding cooldown and positioning habits",
+            "Building comfort before large PvP fights"
+          ],
+          "playNote": "Use repeated deployments as practice for timing, not just as a checkbox."
+        }
+      ]
+    },
+    "rfOnlineNextPvpWarfare": {
+      "title": "RF Online Next PvP, Battlegrounds and Mining War",
+      "intro": "RF Online Next turns PvP into a layered war system instead of a simple duel. Know the objective, swap your Biosuit for the fight, control vertical space, and keep the battlefield mechanics in mind while chasing a coordinated push.",
+      "items": [
+        {
+          "icon": "Swords",
+          "label": "What is the core PvP fantasy?",
+          "content": "RF Online Next is built around massive PvP where thousands of players clash and faction honor is on the line. The game emphasizes large combat swings, battlefield positioning and victory through coordinated pressure rather than isolated one-on-one fights.",
+          "keyPoints": [
+            "Large-scale PvP is a central feature",
+            "Faction conflict drives the battlefield fantasy",
+            "Sacred Weapons and flight can disrupt enemy strategy"
+          ]
+        },
+        {
+          "icon": "Shuffle",
+          "label": "How does Biosuit swapping affect team fights?",
+          "content": "Biosuits can be swapped to change combat style for the situation. Switching between offense, evasion and support roles makes team fights less about one fixed class and more about bringing the right role at the right moment.",
+          "keyPoints": [
+            "Swap for offense when your team is pushing",
+            "Swap for evasion when repositioning or disengaging",
+            "Swap for support when group survival matters"
+          ]
+        },
+        {
+          "icon": "Hammer",
+          "label": "What matters in Mining War or Faction War objectives?",
+          "content": "Faction War centers on excavators. Players can approach an excavator to view its faction and HP, and the excavator loses HP by number of hits rather than damage value. Destroying all opposing excavators wins the war; if excavators remain, the guild from the faction with the highest remaining excavator HP wins.",
+          "keyPoints": [
+            "Excavator HP is reduced by hit count",
+            "Destroy opposing excavators to win",
+            "Remaining excavator HP can decide the winning faction"
+          ]
+        },
+        {
+          "icon": "Crown",
+          "label": "Why is the Holy Stone Keeper important?",
+          "content": "The Holy Stone Keeper spawns in the center one minute after the Faction War starts and respawns three minutes after defeat. Defeating it can grant a barrier to the faction's excavator, and the faction that lands the final hit receives a buff that scales through movement speed, attack, defense, accuracy and evasion tiers.",
+          "keyPoints": [
+            "First spawn: one minute after war start",
+            "Respawn: three minutes after defeat",
+            "Final-hit faction receives escalating combat buffs"
+          ]
+        },
+        {
+          "icon": "Plane",
+          "label": "How does flight change battleground movement?",
+          "content": "The airfield opens ten minutes after the game begins, allowing movement between Accretia, Bellato and Cora airfields. Flight creates flanking routes and vertical pressure, but flying too high can cause fuel shortage and death.",
+          "keyPoints": [
+            "Airfield opens after ten minutes",
+            "Faction airfields connect to enemy airfields",
+            "Fuel limits prevent careless high-altitude flight"
+          ]
+        },
+        {
+          "icon": "Shield",
+          "label": "What do turrets, barricades and guardians do?",
+          "content": "When a faction defeats the Holy Stone Keeper, that faction's turrets activate. Turrets can destroy opposing barricades, opening easier attack paths toward enemy bases, while guardians near entrances and excavators help defend against intrusions.",
+          "keyPoints": [
+            "Holy Stone Keeper control activates turrets",
+            "Turrets are used to break barricades",
+            "Guardians support base defense"
+          ]
+        },
+        {
+          "icon": "Coins",
+          "label": "How do mercenaries fit into the war?",
+          "content": "The Mercenary System lets guild leaders set recruitment criteria and prize rewards for participating mercenaries. Recruitment is available until 21:10, prize money cannot be changed from 21:25 onward, and the listed prize range is 100 to 100,000 Diamonds.",
+          "keyPoints": [
+            "Guild Master controls mercenary recruitment settings",
+            "Recruitment cutoff is 21:10",
+            "Prize range is 100 to 100,000 Diamonds"
+          ]
+        }
+      ]
+    },
+    "rfOnlineNextPveRoadmap": {
+      "title": "RF Online Next World Bosses, Dungeons and Main Quests",
+      "intro": "This roadmap turns RF Online Next's early progression into practical checkpoints. It uses achievement goals, guide categories and boss rules so players can understand what to clear next without reading every menu.",
+      "tableHeaders": ["Milestone", "Type", "Goal", "Reward"],
+      "rows": [
+        {
+          "milestone": "Reach level 5",
+          "type": "Level milestone",
+          "goal": "Complete opening quests and unlock the first basic systems.",
+          "reward": "The Great Beginning achievement and early account XP"
+        },
+        {
+          "milestone": "Complete the Colleague in Danger Quest",
+          "type": "Tutorial quest",
+          "goal": "Learn flight movement and aerial control for travel and combat positioning.",
+          "reward": "Liberator of Gravity achievement (flight system)"
+        },
+        {
+          "milestone": "Complete the Bellato's Ammunition Depot Quest",
+          "type": "Tutorial quest",
+          "goal": "Equip and understand the Biosuit system before deeper combat routing.",
+          "reward": "Qualification of Scion achievement (Biosuit system)"
+        },
+        {
+          "milestone": "Defeat the Holy Stone Keeper in the Ancient Ruins",
+          "type": "Quest boss",
+          "goal": "Clear the Arcane Ruins Quest and learn objective-style boss pressure.",
+          "reward": "Pilot of Steel achievement (boss milestone)"
+        },
+        {
+          "milestone": "Reach level 30",
+          "type": "Level milestone",
+          "goal": "Keep main quests, gear enhancement and routine content moving until mid-game systems open wider.",
+          "reward": "Valiant Mercenary achievement (mid-game marker)"
+        },
+        {
+          "milestone": "Complete Sacred Weapon Deployment five times",
+          "type": "Deployment goal",
+          "goal": "Practice deploying MAU, Launcher or Animus-style battlefield tools before relying on them in bigger fights.",
+          "reward": "Steely Watcher achievement (deployment milestone)"
+        },
+        {
+          "milestone": "Complete the Dorian Regional Main Quest",
+          "type": "Regional main quest",
+          "goal": "Finish the Bellato-linked regional story route.",
+          "reward": "Fixer of Bellato achievement"
+        },
+        {
+          "milestone": "Complete the Kallis Regional Main Quest",
+          "type": "Regional main quest",
+          "goal": "Finish the Accretia-linked regional story route.",
+          "reward": "Fixer of Accretia achievement"
+        },
+        {
+          "milestone": "Complete the Numerus Regional Main Quest",
+          "type": "Regional main quest",
+          "goal": "Finish the Cora-linked regional story route.",
+          "reward": "Fixer of Cora achievement"
+        },
+        {
+          "milestone": "Check boss spawn region and timing in the Schedule menu",
+          "type": "Open-world boss content",
+          "goal": "Stay near the boss, deal contribution, and avoid changing maps during the fight.",
+          "reward": "Adventure Coins and Contribution rewards"
+        },
+        {
+          "milestone": "Compete as an individual, party or raid-group party",
+          "type": "Reward rule",
+          "goal": "Earn contribution and keep positioning valid until the boss dies.",
+          "reward": "Individual rewards or guild-auction distribution"
+        },
+        {
+          "milestone": "Scion Training Grounds, World Boss, Zone Dungeon, Core World, Arcane Trials, Battlefield of Memory, Babylon Occupation Battle",
+          "type": "Dungeon roadmap",
+          "goal": "Use dungeon categories to route daily growth, boss attempts and harder group content.",
+          "reward": "Progression materials, boss rewards and long-term PvE goals"
+        },
+        {
+          "milestone": "Reach level 80",
+          "type": "Level milestone",
+          "goal": "Continue main progression, dungeons, boss content and gear growth toward the high-level goal.",
+          "reward": "Legendary Mercenary achievement (high-level marker)"
         }
       ]
     }
