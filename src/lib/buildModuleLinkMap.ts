@@ -32,7 +32,9 @@ const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
   rfOnlineNextBeginnerGuide: ['beginner', 'guide', 'controls', 'flight', 'tutorial', 'early progression'],
   rfOnlineNextBiosuitTierList: ['biosuit', 'class', 'tier', 'demolisher', 'punisher', 'enforcer', 'role'],
   rfOnlineNextBuildProgression: ['build', 'skills', 'gear', 'enhancement', 'rovers', 'collection', 'progression'],
-  rfOnlineNextSacredWeapons: ['sacred weapon', 'mau', 'launcher', 'animus', 'deployment', 'battlefield'],
+  // 'launcher' removed: collides with netmarble-launcher download page (slug+title contain 'launcher'),
+  // causing the Sacred Weapons module h2 to mislink to the launcher download page instead of combat content.
+  rfOnlineNextSacredWeapons: ['sacred weapon', 'mau', 'animus', 'deployment', 'battlefield'],
   rfOnlineNextPvpWarfare: ['pvp', 'faction war', 'mining war', 'holy stone keeper', 'battleground', 'mercenary', 'airfield'],
   rfOnlineNextPveRoadmap: ['world boss', 'dungeon', 'main quest', 'achievement', 'milestone', 'pve', 'raid'],
 }
