@@ -28,6 +28,25 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // RF Online Next 模块卡片图标
+  Gift: LucideIcons.Gift,
+  Globe: LucideIcons.Globe,
+  Smartphone: LucideIcons.Smartphone,
+  Tablet: LucideIcons.Tablet,
+  Cpu: LucideIcons.Cpu,
+  Languages: LucideIcons.Languages,
+  Ticket: LucideIcons.Ticket,
+  Tv: LucideIcons.Tv,
+  Mail: LucideIcons.Mail,
+  Zap: LucideIcons.Zap,
+  Bomb: LucideIcons.Bomb,
+  Crosshair: LucideIcons.Crosshair,
+  Sword: LucideIcons.Sword,
+  Brain: LucideIcons.Brain,
+  HeartPulse: LucideIcons.HeartPulse,
+  Ghost: LucideIcons.Ghost,
+  Swords: LucideIcons.Swords,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
