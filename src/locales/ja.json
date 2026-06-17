@@ -1,1 +1,858 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "RF Online Next Wiki - コード、Biosuit、PCガイド",
+      "description": "RF Online Nextの発売情報、コード、Biosuit、Sacred Weapons、PCダウンロードヘルプ、ワールドボス、PvP、システム要件、初心者向けヒントを含むガイド。",
+      "keywords": "RF Online Next, PC, mobile, codes, biosuits, Sacred Weapons, PvP, guide",
+      "ogTitle": "RF Online Next Wiki - コード、Biosuit、PCガイド",
+      "ogDescription": "RF Online Nextの発売情報、コード、Biosuit、Sacred Weapons、PCダウンロードヘルプ、ワールドボス、PvP、システム要件、初心者向けヒントを含むガイド。",
+      "twitterTitle": "RF Online Next Wiki - コード、Biosuit、PCガイド",
+      "twitterDescription": "RF Online Nextの発売情報、コード、Biosuit、Sacred Weapons、PCダウンロードヘルプ、ワールドボス、PvP、初心者向けヒントを含むガイド。"
+    }
+  },
+  "nav": {
+    "guide": "ガイド",
+    "download": "ダウンロード",
+    "requirements": "必要条件",
+    "classes": "クラス",
+    "release": "リリース"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "Epic Gamesでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "冷酷な鋼鉄のSF MMORPG",
+    "title": "RF Online Next Wiki",
+    "description": "RF ONLINE NEXTは、Biosuitのクラス変更、Sacred Weapons、MAUとAnimusの戦闘、ワールドボスレイド、大規模PvP、PC/モバイルプレイが可能なクロスプラットフォームのSF MMORPGです。",
+    "getFreeCodesCTA": "無料コードを入手",
+    "playOnSteamCTA": "Epic Gamesでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "2026年6月17日 UTC",
+        "label": "グローバルローンチ"
+      },
+      "stat2": {
+        "value": "50万以上",
+        "label": "Google Playダウンロード数"
+      },
+      "stat3": {
+        "value": "22.7K",
+        "label": "Google Playレビュー"
+      },
+      "stat4": {
+        "value": "7",
+        "label": "Biosuitクラス"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "RF Online Next ゲームプレイ",
+    "description": "このクロスプラットフォームのSF MMORPGで、Biosuitのクラス変更、MAUやAnimusのようなSacred Weapons、ワールドボスレイド、大規模PvPをマスターしましょう。"
+  },
+  "tools": {
+    "title": "RF Online Next",
+    "titleHighlight": "ガイド",
+    "subtitle": "公式ダウンロードやクーポンコードからBiosuitのティアピックまで、必要なRF Online Nextのリソースに直接アクセスできます。",
+    "cards": [
+      {
+        "icon": "Download",
+        "title": "RF Online Next ダウンロード",
+        "description": "公式PCおよびモバイルプラットフォーム、発売日、システム要件"
+      },
+      {
+        "icon": "Gift",
+        "title": "RF Online Next コード",
+        "description": "クーポンコード、Twitch Drops、ローンチ報酬、パートナーイベント"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "RF Online Next 初心者ガイド",
+        "description": "アカウント設定、操作、飛行、Biosuit、初期の進行"
+      },
+      {
+        "icon": "Users",
+        "title": "RF Online Next Biosuit ティアリスト",
+        "description": "クラスの役割、範囲、PvEおよびPvPの価値、スターターピック"
+      },
+      {
+        "icon": "Hammer",
+        "title": "RF Online Next ビルドガイド",
+        "description": "Biosuitの優先順位、装備強化、スキル成長、コレクション統計、Rover"
+      },
+      {
+        "icon": "Rocket",
+        "title": "RF Online Next Sacred Weapons",
+        "description": "MAU、ランチャー、Animusの戦場での役割、タイミング、展開"
+      },
+      {
+        "icon": "Swords",
+        "title": "RF Online Next PvP ガイド",
+        "description": "派閥戦争、採掘戦争、Holy Stone Keeper、飛行、傭兵ルール"
+      },
+      {
+        "icon": "Map",
+        "title": "RF Online Next PvE ロードマップ",
+        "description": "ワールドボス、ダンジョンタイプ、メインクエスト、レベルマイルストーン"
+      }
+    ]
+  },
+  "modules": {
+    "rfOnlineNextDownloadPlatforms": {
+      "title": "RF Online Nextのダウンロード、リリース日、プラットフォーム",
+      "intro": "RF Online Nextは2026年6月16日にPCとモバイル向けに全世界でリリースされました。公式プラットフォームのいずれかを選択して本物のゲームをインストールし、サードパーティのAPKミラーやコピーされたランチャーページはスキップしてください。",
+      "cards": [
+        {
+          "icon": "Globe",
+          "name": "公式サイトとNetmarble Launcher",
+          "badge": "PC",
+          "description": "Netmarble ConnectリモートプレイをサポートするNetmarble Launcher PC版の公式グローバルダウンロードハブ。",
+          "details": [
+            "Netmarble Launcher PC版",
+            "Netmarble Connectリモートプレイ",
+            "公式コミュニティリンク"
+          ],
+          "href": "https://rfonlinenextgb.netmarble.com/en/"
+        },
+        {
+          "icon": "Gamepad2",
+          "name": "Epic Games Store",
+          "badge": "Windows PC",
+          "description": "Epic Games Storeで無料の基本ゲーム。クロスプラットフォーム、MMO、オープンワールド、RPG、スペース。",
+          "details": [
+            "パブリッシャー: Netmarble Corp",
+            "開発者: Netmarble N2 Inc",
+            "クロスプラットフォームMMO RPG"
+          ],
+          "href": "https://store.epicgames.com/p/rf-online-next-fa5a7b?lang=en-US"
+        },
+        {
+          "icon": "Smartphone",
+          "name": "Google Play",
+          "badge": "Android",
+          "description": "50万以上のダウンロード数を誇る公式Androidインストールページ。競争力のあるマルチプレイヤーを備えたロールプレイングMMORPG。",
+          "details": [
+            "ロールプレイングMMORPG",
+            "競争力のあるマルチプレイヤー",
+            "SFファンタジー"
+          ],
+          "href": "https://play.google.com/store/apps/details?hl=en_US&id=com.netmarble.rfnext"
+        },
+        {
+          "icon": "Tablet",
+          "name": "App Store",
+          "badge": "iOS / iPadOS",
+          "description": "公式iPhoneおよびiPadインストールページ。iOS 15.0以降が必要です。バージョン1.27.12、392.5 MB。",
+          "details": [
+            "iOS 15.0以降が必要",
+            "英語、日本語、韓国語、繁体字中国語",
+            "アプリ内購入ありの無料"
+          ],
+          "href": "https://apps.apple.com/hk/app/rf-online-next/id6740848451?l=en-GB"
+        },
+        {
+          "icon": "Cpu",
+          "name": "PCシステム要件",
+          "badge": "Windows PC",
+          "description": "最小スペックはIntel i5 8400、12 GB RAM、GTX 1060から。推奨スペックはi5 12400、16 GB、RTX 2060にアップ。",
+          "details": [
+            "最小: i5 8400, 12 GB, GTX 1060",
+            "推奨: i5 12400, 16 GB, RTX 2060",
+            "Windows 10 64ビット, DirectX 12, 30 GB"
+          ],
+          "href": "https://rfonlinenextgb.netmarble.com/en/pcplay"
+        },
+        {
+          "icon": "Languages",
+          "name": "対応言語",
+          "badge": "グローバル",
+          "description": "音声は韓国語と英語。テキストサポートは簡体字中国語、繁体字中国語、フランス語、ドイツ語、日本語を含む16言語に及びます。",
+          "details": [
+            "音声: 韓国語、英語",
+            "16のテキスト言語に対応",
+            "完全なクロスリージョンサポート"
+          ],
+          "href": "https://store.epicgames.com/p/rf-online-next-fa5a7b?lang=en-US"
+        }
+      ]
+    },
+    "rfOnlineNextCodesRewards": {
+      "title": "RF Online Nextのコードとクーポン報酬",
+      "intro": "公式クーポンページ、ローンチ報酬、Twitch Drops、Discordイベント、パートナーキャンペーンを追跡しましょう。クーポン報酬はアカウントの会員番号に紐付けられ、ゲーム内メールボックスに届けられます。",
+      "cards": [
+        {
+          "icon": "Ticket",
+          "name": "公式クーポンセンター",
+          "badge": "クーポン引き換え",
+          "reward": "リンクされたアカウントのメールボックスに届けられる限定クーポン報酬",
+          "description": "NetmarbleのRF Online Nextクーポンページでクーポンを入力し、引き換え前にアカウントの会員番号を確認してください。",
+          "note": "1アカウントにつき1回引き換え。報酬が遅れる場合は、ゲームを再起動してメールボックスを再確認してください。",
+          "href": "https://coupon.netmarble.com/rfnext"
+        },
+        {
+          "icon": "Tv",
+          "name": "Twitch Dropsイベント",
+          "badge": "視聴報酬",
+          "reward": "公式RF Online Nextストリーム視聴によるTwitch Drops",
+          "description": "まずゲームアカウントにログインし、次にTwitchにログインして対象のRF Online Nextストリームを視聴してください。",
+          "note": "イベントは2026年6月17日から6月30日14:59 UTCまで開催されます。",
+          "href": "https://rfonlinenextgb.netmarble.com/en/drops"
+        },
+        {
+          "icon": "Star",
+          "name": "アプリマーケットプレイス事前登録報酬",
+          "badge": "ローンチ報酬",
+          "reward": "レアBiosuit召喚チケット、アンコモンRover召喚チケット、および戦闘支援パッケージ",
+          "description": "Google PlayまたはApp Storeからの事前登録により、アカウントはローンチ報酬の対象となりました。",
+          "note": "ローンチ時にゲーム内メールで配布されます。",
+          "href": "https://www.rpgsite.net/news/20625-rf-online-next-releases-worldwide-for-pc-mobile-on-june-16"
+        },
+        {
+          "icon": "Mail",
+          "name": "公式サイトメール報酬",
+          "badge": "ローンチ報酬",
+          "reward": "エピックRover Flora召喚チェスト、ゲーム内クレジット、アップグレードキット、および進行アイテム",
+          "description": "公式サイトからのメール事前登録により、アカウントはウェブサイト報酬セットの対象となりました。",
+          "note": "ゲームアカウント報酬システムを通じて配布されます。",
+          "href": "https://forum.netmarble.com/rfonlinenext_gl/view/13/3"
+        },
+        {
+          "icon": "MessageCircle",
+          "name": "Discord招待イベント",
+          "badge": "コミュニティイベント",
+          "reward": "公式Discordイベント報酬",
+          "description": "RF Online Next公式Discordに参加し、公式フォーラムのお知らせにある招待イベントの指示に従ってください。",
+          "note": "2026年5月28日発表。報酬が配布されるまでサーバーに留まってください。",
+          "href": "https://forum.netmarble.com/rfonlinenext_gl/view/16/9"
+        },
+        {
+          "icon": "Zap",
+          "name": "RF Online Next x GearUPパートナーシップ",
+          "badge": "パートナーイベント",
+          "reward": "公式GearUPパートナーシップキャンペーン特典",
+          "description": "公式Netmarbleフォーラムイベントのお知らせを利用し、そこに記載されているGearUPキャンペーンの手順に従ってください。",
+          "note": "2026年6月発表。",
+          "href": "https://forum.netmarble.com/rfonlinenext_gl/view/16/26"
+        }
+      ]
+    },
+    "rfOnlineNextBeginnerGuide": {
+      "title": "RF Online Next 初心者ガイド",
+      "intro": "アカウント設定から飛行、Biosuitの装備、Sacred Weaponの展開、レベル30、そして地域メインクエストまで、初期の道のりを辿りましょう。最初の1時間はシンプルに、公式プラットフォームを利用してください。",
+      "steps": [
+        {
+          "title": "公式プラットフォームからインストール",
+          "subtitle": "Netmarble Launcher、Epic Games Store、Google Play、またはApp Store",
+          "description": "PCプレイヤーはNetmarble LauncherまたはEpic Games Storeからインストールします。モバイルプレイヤーはGoogle PlayまたはApp Storeを使用し、アカウントと購入フローが公式エコシステム内で完結するようにします。"
+        },
+        {
+          "title": "ゲームアカウントとキャラクターを作成",
+          "subtitle": "地域を選択し、その後、使い続けるキャラクターを選択",
+          "description": "MMOのサーバー選択は、誰と確実にプレイできるかに影響するため、初期の進行を確定する前に、友人やギルドメンバーと同じサーバーを選択してください。"
+        },
+        {
+          "title": "戦闘前にPCコントロールを設定",
+          "subtitle": "WASDで移動、スペースバーで飛行",
+          "description": "Alt + EnterまたはF11でフルスクリーンとウィンドウモードを切り替えます。設定から環境でグラフィック品質を調整します。"
+        },
+        {
+          "title": "レベル5に到達",
+          "subtitle": "オープニングクエストをクリア",
+          "description": "「The Great Beginning」アチーブメントはレベル5を示し、RF Online Nextにおける最初の明確な初期進行チェックポイントです。"
+        },
+        {
+          "title": "Biosuit飛行チュートリアルを完了",
+          "subtitle": "「Colleague in Danger」クエストを完了",
+          "description": "このアンロックパスは飛行システムを教えます。Biosuitは空中と地上の両方で戦うため、これは重要です。"
+        },
+        {
+          "title": "Biosuit装備チュートリアルを完了",
+          "subtitle": "「Bellato's Ammunition Depot」クエストを完了",
+          "description": "RF Online Nextのクラス切り替えシステムへの最初の大きな一歩です。Biosuitはキャラクターを再起動することなく戦闘スタイルを変更できます。"
+        },
+        {
+          "title": "Ancient Ruinsの目標をクリア",
+          "subtitle": "Holy Stone Keeperを倒す",
+          "description": "この初期のボスチェックポイントは、キャラクターがチュートリアルの戦闘、移動、目標進行を処理できることを確認します。"
+        },
+        {
+          "title": "Sacred Weaponを展開",
+          "subtitle": "Sacred Weaponを5回展開",
+          "description": "Sacred Weaponには、Launcher、MAU、Animusなどの戦場ツールが含まれており、RF Online Nextの大規模戦闘のアイデンティティの中心です。"
+        },
+        {
+          "title": "レベル30と地域メインクエストを進める",
+          "subtitle": "Dorian、Numerus、Kallisへ向かう",
+          "description": "Valiant Mercenaryはレベル30を示します。地域アチーブメントはBellato、Cora、Accretiaのクエストラインを追跡します。"
+        }
+      ],
+      "quickTips": [
+        "アカウントを安全に保つため、RF Online Nextは常に公式プラットフォームからインストールしてください。",
+        "早い段階で、友人やギルドメンバーとサーバー選択を合わせてください。",
+        "本格的なPvEやPvPの前に、飛行とBiosuitのチュートリアルを完了してください。",
+        "Sacred Weaponの展開は、最も必要な戦闘のために温存してください。"
+      ]
+    },
+    "rfOnlineNextBiosuitTierList": {
+      "title": "RF Online Next クラスティアリストとBiosuit",
+      "intro": "BiosuitはRF Online Nextのクラスシステムであり、飛行、空中および地上戦闘、そしてその場での役割切り替えをサポートします。このティアグリッドは、新規プレイヤーの快適さと実用的な初期の有用性に基づいてBiosuitをランク付けし、各スーツがPvEと大規模PvPで何をするかを示します。",
+      "tierLabels": {
+        "S": "最高の初期選択",
+        "A": "強力で信頼できる",
+        "B": "上級者向けまたは状況限定"
+      },
+      "biosuits": [
+        {
+          "tier": "S",
+          "icon": "Bomb",
+          "name": "Demolisher",
+          "role": "中距離から長距離の物理AoE",
+          "range": "中距離から長距離",
+          "fit": "非常に高い",
+          "pve": "モブ処理、フィールドファーミング、ダンジョンウェーブ",
+          "pvp": "エリアプレッシャー、後方火力支援",
+          "note": "重火器と範囲ダメージを中心に構築されており、近接戦闘に立たずに強力な出力を出すための最もクリーンな最初の選択肢です。"
+        },
+        {
+          "tier": "S",
+          "icon": "Crosshair",
+          "name": "Punisher",
+          "role": "安定した遠距離ダメージと味方カバー",
+          "range": "遠距離",
+          "fit": "高い",
+          "pve": "安全なクエスト進行、安定した遠距離攻撃",
+          "pvp": "援護射撃、群衆制御、遠距離からのとどめ",
+          "note": "弾丸、炎、味方のカバーに焦点を当てており、完全な飛行とPvPのポジショニングの前に、より安全なダメージスタイルです。"
+        },
+        {
+          "tier": "A",
+          "icon": "Shield",
+          "name": "Enforcer",
+          "role": "前線の守護者とタンク",
+          "range": "近距離",
+          "fit": "高い",
+          "pve": "生存、複数の敵の引きつけ、より安全なボス学習",
+          "pvp": "シールド、挑発プレッシャー、前線攪乱",
+          "note": "複数の敵と交戦し、攻撃をブロックします。耐久性とチーム保護に最適です。"
+        },
+        {
+          "tier": "A",
+          "icon": "Sword",
+          "name": "Dreadnought",
+          "role": "突撃する近接破壊者",
+          "range": "近距離",
+          "fit": "中高",
+          "pve": "近接クエスト進行、直接的なバーストウィンドウ",
+          "pvp": "ターゲット追跡、コンボプレッシャー、前線ダメージ",
+          "note": "突撃して攻撃的に立ち回るプレイヤー向けですが、近接ポジショニングは遠距離の初心者よりも許容範囲が狭いです。"
+        },
+        {
+          "tier": "A",
+          "icon": "Brain",
+          "name": "Psypher",
+          "role": "フォースベースの戦場制御",
+          "range": "中距離",
+          "fit": "中",
+          "pve": "集団敵の制御、戦術的な処理",
+          "pvp": "陣形攪乱、群衆制御",
+          "note": "フォースを使って戦闘を制御し、複数の敵を処理します。スキルのタイミングを理解すれば強力です。"
+        },
+        {
+          "tier": "B",
+          "icon": "HeartPulse",
+          "name": "Technician",
+          "role": "サポート、回復、ドローン、タワー",
+          "range": "遠距離サポート",
+          "fit": "中",
+          "pve": "パーティサポート、回復、ユーティリティ",
+          "pvp": "持続的なサポート、防御ユーティリティ",
+          "note": "パーティ戦では重要ですが、ソロの初心者は通常、最初にダメージBiosuitでより早く進行します。"
+        },
+        {
+          "tier": "B",
+          "icon": "Ghost",
+          "name": "Phantom",
+          "role": "高速アサシン",
+          "range": "近距離",
+          "fit": "上級者向け",
+          "pve": "高速な単一ターゲット排除",
+          "pvp": "後方ピック、ハイリスクな交戦",
+          "note": "スピードと暗殺の価値がありますが、タイミングとポジショニングが悪いとペナルティを受けます。"
+        },
+        {
+          "tier": "B",
+          "icon": "Swords",
+          "name": "Arbiter",
+          "role": "近距離から中距離のハイブリッド戦闘",
+          "range": "近距離から中距離",
+          "fit": "中",
+          "pve": "ハイブリッドダメージルート、柔軟なクエスト戦闘",
+          "pvp": "プレッシャーツール、柔軟な小競り合い",
+          "note": "最もシンプルな初心者向けというよりは、柔軟な戦闘選択肢です。ハイブリッドレンジは慎重なポジショニングを求めます。"
+        }
+      ]
+    },
+    "rfOnlineNextBuildProgression": {
+      "title": "RF Online Nextの最適なビルド、スキル、装備の進行",
+      "intro": "RF Online Nextの進行は、1つのクラスに固定されるのではなく、柔軟なBiosuitの交換を中心に構築されています。最も安全なビルド計画は、1つの主要な戦闘ロールを強力に保ち、実用的な交換オプションをアンロックし、ゲームが提示するすべての派手なメニューボタンにアップグレードリソースを広げる前に、装備とパッシブステータスのギャップを修正することです。",
+      "priorityLabels": {
+        "Core": "コア優先度",
+        "High": "高優先度",
+        "Medium": "中優先度"
+      },
+      "steps": [
+        {
+          "title": "最初に1つの主要なダメージBiosuitを選択する",
+          "priority": "Core",
+          "summary": "メインクエスト、ダンジョン、ボスへの貢献に実際に使用するBiosuitを中心に投資することから始めます。",
+          "details": [
+            "各Biosuitには独自の効果があり、所有しているBiosuitはBiosuitメニューから自由に交換できます。",
+            "DemolisherやPunisherのような火力スーツは、初期のソロ進行において実用的な中距離から長距離の物理攻撃の要となります。",
+            "メインルートに安定した装備、スキル、パッシブステータスが揃うまで、他のBiosuitは交換ツールとして扱います。"
+          ]
+        },
+        {
+          "title": "ランダムな支出ではなく、役割のために交換を使用する",
+          "priority": "Core",
+          "summary": "Biosuitの交換により、状況に応じて戦闘スタイルを変更しながら、装備とスキルの成長を維持できます。",
+          "details": [
+            "クエストクリアや日常的なファーミングにはダメージスーツを使用します。",
+            "PvP、パーティープレイ、厄介なボスパターンに備えて、防御的、回避的、またはサポート寄りの交換オプションを用意しておきます。",
+            "初期段階で、すべてのBiosuitにアップグレード素材を均等に分配することは避けてください。"
+          ]
+        },
+        {
+          "title": "サイドシステムを追いかける前に装備の強化を修正する",
+          "priority": "High",
+          "summary": "メインクエストの進行が遅くなったり、モンスターの攻撃が強すぎると感じたら、クラスのせいにする前に装備しているギアをアップグレードしてください。",
+          "details": [
+            "装備強化には、強化、一括強化、プライムモッド、ランダムオプションのレイヤーが含まれます。",
+            "初期のボトルネックは通常、新しいセットアップに賭けるよりも、アクティブな装備を安全な強化で進める方が早く解決されます。",
+            "装備強化メニューを使用して、影響の少ないサイド成長を推し進める前に、アクティブなルートをアップグレードし続けてください。"
+          ]
+        },
+        {
+          "title": "実際に使用するスキルのスキルパワーを上げる",
+          "priority": "High",
+          "summary": "スキル成長は、ゲームがスキル追加、スキル強化、アドオン、フィニッシングスキルをサポートしているため重要です。",
+          "details": [
+            "メインのBiosuitルートで使用するアクティブスキルを優先します。",
+            "アドオンは、その戦闘でのあなたの役割をサポートするべきです。ファーミングのためのダメージアップタイム、PvPのためのコントロールまたはサバイバル、ボス戦のためのバーストウィンドウなどです。",
+            "メニューに赤い点があるからといって、使用しないスキルを過度にビルドしないでください。"
+          ]
+        },
+        {
+          "title": "最初に攻撃と命中率でコレクションステータスを完了する",
+          "priority": "High",
+          "summary": "コレクションの進行はパッシブステータス値を与え、攻撃と命中率はダメージの一貫性のための最も明確な初期優先事項です。",
+          "details": [
+            "攻撃はダメージ出力を直接増加させます。",
+            "命中率は重要です。なぜなら、ミスや信頼性の低いヒットは他のすべてのダメージアップグレードを無駄にするからです。",
+            "攻撃と命中率の後、ボトルネックに基づいて耐久性、回避、または役割固有のステータスに分岐します。"
+          ]
+        },
+        {
+          "title": "ローバーを装飾ではなくパッシブ成長として使用する",
+          "priority": "Medium",
+          "summary": "ローバーは浮遊するコンパニオンユニットのように機能し、実用的なステータスとユーティリティボーナスを提供できます。",
+          "details": [
+            "ローバーシステムには、ローバー、フューズ、コレクション、ファイナライズ、チューニング、ローバーワークショップ、ローバーバーストが含まれます。",
+            "ローバーボーナスには、EXP獲得、回復アイテム容量、攻撃関連ステータスなど、成長に役立つ効果が含まれます。",
+            "コンパニオンをコスメティックな追加物として扱うのではなく、ローバーの成長をメインビルドと連携させてください。"
+          ]
+        }
+      ]
+    },
+    "rfOnlineNextSacredWeapons": {
+      "title": "RF Online Next Sacred Weaponガイド",
+      "intro": "Sacred Weaponは通常の装備スロットではありません。これらは、大規模なPvP、ボスレイド、空中戦が勝敗を分ける際に、タイミング、ポジショニング、目標への圧力を目的とした戦場規模のツールです。",
+      "cards": [
+        {
+          "icon": "Bot",
+          "name": "MAU",
+          "type": "操縦型Sacred Weapon",
+          "role": "前線突撃と直接制御",
+          "description": "MAUはMechanic Armor Unitの略で、プレイヤーが直接操縦・制御する大型兵器です。",
+          "bestUsed": [
+            "敵陣への突撃",
+            "防御陣形への圧力",
+            "大規模戦闘での前線脅威の創出"
+          ],
+          "playNote": "MAUは、微妙なポジショニングよりも直接的な圧力が重要な場合に使用します。"
+        },
+        {
+          "icon": "Rocket",
+          "name": "Launcher",
+          "type": "重火力支援型Sacred Weapon",
+          "role": "精密な遠距離火力と防御突破圧力",
+          "description": "Launcherは精密で壊滅的な火力を放ち、敵の防御を破壊したり、退却路を遮断したりするのに役立ちます。",
+          "bestUsed": [
+            "集団の敵に対する遠距離圧力",
+            "防御ラインの突破",
+            "目標周辺でのプッシュの支援"
+          ],
+          "playNote": "Launcherは、空きスペースで無駄にするのではなく、その火力がレーン、目標、または退却路をカバーできる場所に展開してください。"
+        },
+        {
+          "icon": "Atom",
+          "name": "Animus",
+          "type": "召喚型Sacred Weapon",
+          "role": "大規模なバースト存在感と戦場制御",
+          "description": "Animusは、戦場の支配を奪うために召喚できる巨大で強力なSacred Weaponです。",
+          "bestUsed": [
+            "主要な戦闘局面の転換",
+            "敵の再配置の強制",
+            "集団戦が膠着した際の決定的な圧力の追加"
+          ],
+          "playNote": "Animusのような圧力は、使い捨ての小競り合いではなく、戦闘の勝敗を決定する瞬間のために温存してください。"
+        },
+        {
+          "icon": "Target",
+          "name": "Sacred Weapon Deployment",
+          "type": "実績連動型使用目標",
+          "role": "練習マイルストーン",
+          "description": "ゲームの実績には、Sacred Weapon Deploymentを5回完了すると獲得できるSteely Watcherが含まれます。",
+          "bestUsed": [
+            "展開タイミングの学習",
+            "クールダウンとポジショニングの習慣の理解",
+            "大規模PvP戦前の慣れ作り"
+          ],
+          "playNote": "繰り返しの展開は、単なるチェックボックスとしてではなく、タイミングの練習として使用してください。"
+        }
+      ]
+    },
+    "rfOnlineNextPvpWarfare": {
+      "title": "RF Online Next PvP、バトルグラウンド、採掘戦争",
+      "intro": "RF Online Nextは、PvPを単純な決闘ではなく、階層化された戦争システムへと進化させます。目的を理解し、戦闘に合わせてBiosuitを交換し、垂直空間を制御し、連携した攻撃を追求しながら戦場のメカニクスを念頭に置いてください。",
+      "items": [
+        {
+          "icon": "Swords",
+          "label": "PvPの核となるファンタジーとは？",
+          "content": "RF Online Nextは、何千ものプレイヤーが衝突し、派閥の栄誉がかかる大規模なPvPを中心に構築されています。このゲームは、孤立した一対一の戦いではなく、大規模な戦闘の変動、戦場のポジショニング、そして連携したプレッシャーによる勝利を重視しています。",
+          "keyPoints": [
+            "大規模PvPが中心的な特徴",
+            "派閥間の対立が戦場のファンタジーを推進",
+            "Sacred Weaponと飛行は敵の戦略を妨害できる"
+          ]
+        },
+        {
+          "icon": "Shuffle",
+          "label": "Biosuitの交換はチーム戦にどう影響しますか？",
+          "content": "Biosuitは状況に応じて戦闘スタイルを変更するために交換できます。攻撃、回避、サポートの役割を切り替えることで、チーム戦は固定されたクラスではなく、適切なタイミングで適切な役割を果たすことがより重要になります。",
+          "keyPoints": [
+            "チームが攻撃しているときは攻撃用に交換",
+            "再配置または離脱するときは回避用に交換",
+            "グループの生存が重要なときはサポート用に交換"
+          ]
+        },
+        {
+          "icon": "Hammer",
+          "label": "採掘戦争や派閥戦争の目的で重要なことは何ですか？",
+          "content": "派閥戦争は掘削機を中心に展開されます。プレイヤーは掘削機に近づいてその派閥とHPを確認でき、掘削機はダメージ値ではなくヒット数によってHPを失います。すべての敵の掘削機を破壊すると戦争に勝利します。掘削機が残っている場合、最もHPが残っている掘削機を持つ派閥のギルドが勝利します。",
+          "keyPoints": [
+            "掘削機のHPはヒット数によって減少",
+            "勝利するには敵の掘削機を破壊する",
+            "残りの掘削機HPが勝利派閥を決定する可能性がある"
+          ]
+        },
+        {
+          "icon": "Crown",
+          "label": "Holy Stone Keeperが重要なのはなぜですか？",
+          "content": "Holy Stone Keeperは、派閥戦争開始から1分後に中央に出現し、倒されてから3分後に再出現します。これを倒すと、派閥の掘削機にバリアを付与でき、最後のヒットを与えた派閥は、移動速度、攻撃、防御、命中、回避のティアを通じてスケールするバフを受け取ります。",
+          "keyPoints": [
+            "初回出現：戦争開始から1分後",
+            "再出現：倒されてから3分後",
+            "最後のヒットを与えた派閥は段階的に強化される戦闘バフを受け取る"
+          ]
+        },
+        {
+          "icon": "Plane",
+          "label": "飛行は戦場の移動をどのように変えますか？",
+          "content": "ゲーム開始から10分後に飛行場が開き、Accretia、Bellato、Coraの飛行場間を移動できるようになります。飛行は側面攻撃ルートと垂直方向のプレッシャーを生み出しますが、高すぎると燃料不足と死につながる可能性があります。",
+          "keyPoints": [
+            "飛行場は10分後に開く",
+            "派閥の飛行場は敵の飛行場と接続",
+            "燃料制限により無謀な高高度飛行はできない"
+          ]
+        },
+        {
+          "icon": "Shield",
+          "label": "タレット、バリケード、ガーディアンは何をしますか？",
+          "content": "派閥がHoly Stone Keeperを倒すと、その派閥のタレットが起動します。タレットは敵のバリケードを破壊し、敵基地へのより簡単な攻撃経路を開きます。一方、入り口や掘削機の近くにいるガーディアンは侵入から防御するのに役立ちます。",
+          "keyPoints": [
+            "Holy Stone Keeperの制御でタレットが起動",
+            "タレットはバリケードを破壊するために使用される",
+            "ガーディアンは基地防衛を支援"
+          ]
+        },
+        {
+          "icon": "Coins",
+          "label": "傭兵は戦争にどのように関わりますか？",
+          "content": "傭兵システムでは、ギルドリーダーが参加する傭兵の募集基準と報酬を設定できます。募集は21:10まで可能で、賞金は21:25以降変更できません。提示される賞金範囲は100から100,000 Diamondsです。",
+          "keyPoints": [
+            "ギルドマスターが傭兵募集設定を管理",
+            "募集締め切りは21:10",
+            "賞金範囲は100から100,000 Diamonds"
+          ]
+        }
+      ]
+    },
+    "rfOnlineNextPveRoadmap": {
+      "title": "RF Online Next ワールドボス、ダンジョン、メインクエスト",
+      "intro": "このロードマップは、RF Online Nextの初期の進行を実用的なチェックポイントに変えます。達成目標、ガイドカテゴリ、ボスルールを使用して、プレイヤーがすべてのメニューを読まずに次に何をクリアすべきかを理解できるようにします。",
+      "tableHeaders": [
+        "マイルストーン",
+        "タイプ",
+        "目標",
+        "報酬"
+      ],
+      "rows": [
+        {
+          "milestone": "レベル5に到達",
+          "type": "レベルマイルストーン",
+          "goal": "オープニングクエストを完了し、最初の基本システムをアンロックします。",
+          "reward": "「偉大な始まり」アチーブメントと初期アカウントXP"
+        },
+        {
+          "milestone": "「危険な同僚」クエストを完了",
+          "type": "チュートリアルクエスト",
+          "goal": "移動と戦闘のポジショニングのための飛行移動と空中制御を学びます。",
+          "reward": "「重力解放者」アチーブメント（飛行システム）"
+        },
+        {
+          "milestone": "「Bellatoの弾薬庫」クエストを完了",
+          "type": "チュートリアルクエスト",
+          "goal": "より深い戦闘ルートに入る前に、Biosuitシステムを装備して理解します。",
+          "reward": "「後継者の資格」アチーブメント（Biosuitシステム）"
+        },
+        {
+          "milestone": "古代遺跡のHoly Stone Keeperを倒す",
+          "type": "クエストボス",
+          "goal": "「秘術の遺跡」クエストをクリアし、目的型ボスプレッシャーを学びます。",
+          "reward": "「鋼鉄のパイロット」アチーブメント（ボス達成）"
+        },
+        {
+          "milestone": "レベル30に到達",
+          "type": "レベルマイルストーン",
+          "goal": "メインクエスト、装備強化、ルーティンコンテンツを進め、中盤システムがさらに広がるまで続けます。",
+          "reward": "「勇敢な傭兵」アチーブメント（中盤マーカー）"
+        },
+        {
+          "milestone": "Sacred Weaponの展開を5回完了",
+          "type": "展開目標",
+          "goal": "大規模な戦闘でMAU、Launcher、またはAnimusスタイルの戦場ツールに頼る前に、それらの展開を練習します。",
+          "reward": "「鋼鉄の監視者」アチーブメント（展開達成）"
+        },
+        {
+          "milestone": "Dorian地域メインクエストを完了",
+          "type": "地域メインクエスト",
+          "goal": "Bellato関連の地域ストーリーラインを完了します。",
+          "reward": "「Bellatoの修復者」アチーブメント"
+        },
+        {
+          "milestone": "Kallis地域メインクエストを完了",
+          "type": "地域メインクエスト",
+          "goal": "Accretia関連の地域ストーリーラインを完了します。",
+          "reward": "「Accretiaの修復者」アチーブメント"
+        },
+        {
+          "milestone": "Numerus地域メインクエストを完了",
+          "type": "地域メインクエスト",
+          "goal": "Cora関連の地域ストーリーラインを完了します。",
+          "reward": "「Coraの修復者」アチーブメント"
+        },
+        {
+          "milestone": "スケジュールメニューでボスの出現地域とタイミングを確認",
+          "type": "オープンワールドボスコンテンツ",
+          "goal": "ボスの近くに留まり、貢献度を与え、戦闘中にマップを変更しないようにします。",
+          "reward": "アドベンチャーコインと貢献度報酬"
+        },
+        {
+          "milestone": "個人、パーティー、またはレイドグループパーティーとして競争",
+          "type": "報酬ルール",
+          "goal": "貢献度を獲得し、ボスが死ぬまで有効なポジショニングを維持します。",
+          "reward": "個人報酬またはギルドオークション配布"
+        },
+        {
+          "milestone": "Scion Training Grounds、ワールドボス、ゾーンダンジョン、コアワールド、秘術の試練、記憶の戦場、バビロン占領戦",
+          "type": "ダンジョンロードマップ",
+          "goal": "ダンジョンカテゴリを使用して、日々の成長、ボス挑戦、より難しいグループコンテンツをルーティングします。",
+          "reward": "進行素材、ボス報酬、長期PvE目標"
+        },
+        {
+          "milestone": "レベル80に到達",
+          "type": "レベルマイルストーン",
+          "goal": "メイン進行、ダンジョン、ボスコンテンツ、装備成長をハイレベル目標に向けて続けます。",
+          "reward": "「伝説の傭兵」アチーブメント（ハイレベルマーカー）"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "質問",
+    "subtitle": "RF Online Nextについて知っておくべきことすべて",
+    "questions": [
+      {
+        "question": "RF Online Nextとは何ですか？",
+        "answer": "RF Online Nextは、Netmarbleが開発したクロスプラットフォームのSF MMORPGです。Biosuitのクラス切り替え、Sacred Weapon、ワールドボスレイド、PCとモバイルでの大規模PvPを中心に構築されています。"
+      },
+      {
+        "question": "RF Online Nextはどこでダウンロードできますか？",
+        "answer": "RF Online Nextは、Netmarble公式サイト、Epic Games Store、Google Play、またはApp Storeからダウンロードできます。アカウントを安全に保つために、これらの公式プラットフォームをご利用ください。"
+      },
+      {
+        "question": "RF Online Nextは無料でプレイできますか？",
+        "answer": "はい。RF Online NextはPCとモバイルで無料でプレイでき、コスメティックや進行アイテムのオプションのアプリ内購入があります。"
+      },
+      {
+        "question": "RF Online Nextのクーポンコードはどのように引き換えますか？",
+        "answer": "Netmarbleの公式RF Online Nextクーポンページでクーポンを入力し、アカウントの会員番号を確認すると、報酬がゲーム内のメールボックスに届けられます。"
+      },
+      {
+        "question": "RF Online Nextはクロスプラットフォームプレイをサポートしていますか？",
+        "answer": "はい。RF Online NextはPCとモバイル間のクロスプラットフォームプレイをサポートしているため、同じアカウントでデバイス間で進行できます。"
+      },
+      {
+        "question": "RF Online NextのBiosuitとは何ですか？",
+        "answer": "BiosuitはRF Online Nextのクラスシステムです。飛行、空中および地上戦闘をサポートし、キャラクターを再起動することなく戦闘ロールを切り替えることができます。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "RF Online Nextをプレイする準備はできましたか？",
+    "description": "RF Online NextコミュニティにDiscordで参加して、ガイド、コード、アップデート、ディスカッションを楽しみましょう！",
+    "joinCommunity": "Discordに参加",
+    "joinGame": "Epic Gamesでプレイ"
+  },
+  "footer": {
+    "title": "RF Online Next Wiki",
+    "description": "RF Online Nextのコード、Biosuit、Sacred Weapon、ワールドボスレイド、PvP、PCダウンロードガイドに関する完全なリソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "Discord",
+    "twitter": "YouTube",
+    "steamCommunity": "公式フォーラム",
+    "steamStore": "Epic Games Store",
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 RF Online Next Wiki. RF Online Nextの開発元であるNetmarbleとは提携していません。",
+    "disclaimer": "非公式のファン作成リソースウェブサイト。"
+  },
+  "pages": {
+    "guide": {
+      "title": "RF Online Next ガイド",
+      "description": "初心者向け設定、初日の進行、操作方法、PCおよびモバイルプレイヤー向けの長期的な成長を網羅したRF Online Nextの完全ガイド。",
+      "metaTitle": "RF Online Next ガイド - 初心者、進行、初日のヒント",
+      "metaDescription": "RF Online Nextをマスターするための初心者、初日、進行ガイド。PCおよびモバイルでの操作、飛行、Biosuit、Sacred Weapon、初期の成長を網羅。",
+      "categoryLabel": "ガイド",
+      "whatIs": "RF Online Next ガイドとは何ですか？",
+      "whatIsDescription": "RF Online Next ガイドは、ゲームの出発点です。新しいプレイヤーがアカウント設定、操作、飛行、Biosuitの装備、初期の進行を理解できるように案内し、メニューで迷う時間を減らし、プレイ時間を増やします。",
+      "why": "RF Online Next ガイドを読むべき理由は何ですか？",
+      "whySteps": {
+        "step1Title": "正しい方法で設定する",
+        "step1Description": "最初の戦闘の前に、公式プラットフォームからインストールし、サーバーを選択し、PCの操作を設定します。",
+        "step2Title": "明確なマイルストーンで進行する",
+        "step2Description": "次に何をすべきか推測するのではなく、レベルチェックポイント、飛行とBiosuitのチュートリアル、メインクエストのルーティングに従ってください。",
+        "step3Title": "初期のミスを避ける",
+        "step3Description": "どのシステムを優先すべきか、Sacred Weaponがどのように機能するか、初期のボトルネックが通常どこに現れるかを学びます。"
+      },
+      "featured": "特集＆必須",
+      "all": "すべてのガイド"
+    },
+    "download": {
+      "title": "RF Online Next ダウンロード",
+      "description": "PC、Android、iOS向けの公式RF Online Nextダウンロードリンク。Netmarble Launcher、Epic Games Store、Google Play、App Storeを含む。",
+      "metaTitle": "RF Online Next ダウンロード - PC、Android、iOS公式リンク",
+      "metaDescription": "公式プラットフォームからRF Online Nextをダウンロード。PC、Netmarble Launcher、Epic Games Store、Google Play、App Storeのリンクと設定手順を入手。",
+      "categoryLabel": "ダウンロード",
+      "whatIs": "RF Online Next ダウンロードとは何ですか？",
+      "whatIsDescription": "RF Online Next ダウンロードページには、PCおよびモバイル向けのすべての公式インストールパスがリストされています。これらの検証済みプラットフォームを使用して、アカウントを安全に保ち、サードパーティのAPKミラーやコピーされたランチャーページを避けてください。",
+      "why": "公式ソースからダウンロードする理由は何ですか？",
+      "whySteps": {
+        "step1Title": "アカウントを保護する",
+        "step1Description": "公式プラットフォームは、購入、進行、アカウントデータを安全なNetmarbleエコシステム内に保持します。",
+        "step2Title": "常に最新バージョンを入手する",
+        "step2Description": "公式ストアは、リスクのある手動APKインストールなしで、自動更新と現在のビルドを提供します。",
+        "step3Title": "クロスプラットフォームサポート",
+        "step3Description": "同じアカウントがPCとモバイルで機能するため、プレイスタイルに合ったプラットフォームを選択してください。"
+      },
+      "featured": "特集＆必須",
+      "all": "すべてのダウンロード"
+    },
+    "requirements": {
+      "title": "RF Online Next システム要件",
+      "description": "PC、Android、iOS向けの公式 RF Online Next システム要件。最小および推奨スペック、ストレージ容量、デバイスの互換性、修正方法を確認してください。",
+      "metaTitle": "RF Online Next システム要件 - PC、Android、iOSのスペック",
+      "metaDescription": "PC、Android、iOSの RF Online Next システム要件を確認。最小・推奨スペック、ストレージ容量、デバイス互換性、黒い画面の修正方法。",
+      "categoryLabel": "システム要件",
+      "whatIs": "RF Online Next のシステム要件とは？",
+      "whatIsDescription": "RF Online Next システム要件ページでは、PC、Android、iOSの最小および推奨ハードウェアについて説明しています。ダウンロード前に、お使いのデバイスでゲームがスムーズに動作するか確認するのに役立ちます。",
+      "why": "なぜ最初にシステム要件を確認するのですか？",
+      "whySteps": {
+        "step1Title": "ゲームをスムーズに実行する",
+        "step1Description": "Intel i5 8400、12 GB RAM、GTX 1060 などの最小スペックにより、PCでのゲームプレイを1080pで安定させることができます。",
+        "step2Title": "ストレージと容量の計画",
+        "step2Description": "PC版は約30GBの空き容量が必要なため、ダウンロードを開始する前に容量を確保してください。",
+        "step3Title": "一般的な問題の修正",
+        "step3Description": "互換性と黒い画面の修正方法を確認して、リリース当日にデバイスでスムーズに起動できるようにしましょう。"
+      },
+      "featured": "おすすめ・必須情報",
+      "all": "すべての要件"
+    },
+    "classes": {
+      "title": "RF Online Next クラス＆ティアリスト",
+      "description": "RF Online Next の Biosuit クラス、役割、ティアリスト。最高のPvEおよびPvPクラスを比較し、クラスチェンジについて学び、スターターを選びましょう。",
+      "metaTitle": "RF Online Next クラス＆ティアリスト - 最強 Biosuit ランキング",
+      "metaDescription": "クラスティアリストで、すべての RF Online Next Biosuit をランク付け。PvEとPvPの価値、役割、射程、初心者向けの最適なスタータークラスを比較します。",
+      "categoryLabel": "クラス＆ティアリスト",
+      "whatIs": "RF Online Next のクラスとは？",
+      "whatIsDescription": "RF Online Next のクラスは Biosuit です。これは、飛行、空中・地上戦闘、そしてキャラクターをやり直すことなく即座に役割を切り替えることができるクラスシステムです。各 Biosuit は独自の戦闘役割を担います。",
+      "why": "なぜクラスティアリストを使用するのですか？",
+      "whySteps": {
+        "step1Title": "適切なスターターを選ぶ",
+        "step1Description": "ティアランキングは、Demolisher や Punisher のように、初心者にとって最も使いやすく強力な Biosuit を示しています。",
+        "step2Title": "各役割を理解する",
+        "step2Description": "射程、適性、PvEの価値、PvPの価値を比較して、各クラスが戦闘で実際に何をするのかを把握しましょう。",
+        "step3Title": "クラスチェンジをマスターする",
+        "step3Description": "所有している Biosuit はメニューから自由に入れ替えられるため、あらゆるPvEやPvPの状況に合わせて役割を調整できます。"
+      },
+      "featured": "おすすめ・必須情報",
+      "all": "すべてのクラス"
+    },
+    "release": {
+      "title": "RF Online Next リリース日",
+      "description": "地域別のリリース日、事前登録報酬、グローバルサーバーの開始時間を含む、公式 RF Online Next リリース日とグローバルローンチ情報。",
+      "metaTitle": "RF Online Next リリース日 - グローバルローンチ＆地域別日程",
+      "metaDescription": "公式 RF Online Next リリース日とグローバルローンチ時間、地域別リリース日、事前登録報酬、サーバー開始の詳細を確認。",
+      "categoryLabel": "リリース日",
+      "whatIs": "RF Online Next のリリース日はいつですか？",
+      "whatIsDescription": "RF Online Next リリース日ページでは、公式のグローバルローンチと地域別の開始時間を確認できます。RF Online Next は、PCおよびモバイル向けに2026年6月16日（PST）および2026年6月17日（UTC）に全世界でリリースされました。",
+      "why": "なぜリリース日を確認するのですか？",
+      "whySteps": {
+        "step1Title": "正確なローンチ時間を知る",
+        "step1Description": "グローバルサーバーは2026年6月17日02:00 UTCにオープンし、PSTでは6月16日となります。",
+        "step2Title": "地域別の利用可能性を追跡する",
+        "step2Description": "英語圏、ヨーロッパ、東南アジア、その他のグローバル市場を含む、お住まいの地域のリリース時期を確認してください。",
+        "step3Title": "事前登録報酬を受け取る",
+        "step3Description": "公式ストアを通じて事前登録を行うと、ゲーム内メールで配信されるローンチ報酬の対象となります。"
+      },
+      "featured": "おすすめ・必須情報",
+      "all": "すべてのリリース情報"
+    }
+  }
+}
