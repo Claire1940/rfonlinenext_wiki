@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "RF Online Next Wiki - Codes, Biosuits & PC Guide",
+  "short_name": "RF Online Next",
+  "description": "RF Online Next Wiki covers codes, biosuits, Sacred Weapons, MAU, world boss raids, PvP, PC download help, and beginner tips for the cross-platform sci-fi MMORPG.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#f59e0b",
+  "background_color": "#0b0f17",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
