@@ -1,6 +1,11 @@
 import { getAllContent, CONTENT_TYPES, type ContentType } from '@/lib/content'
 import { routing } from '@/i18n/routing'
 
+// 构建时静态生成（内容不随请求变化）。OpenNext/Workers 运行时无文件系统，
+// 若保持 dynamic 会在请求时调 getAllContent→fs.readdirSync 而 500；force-static
+// 让其在 build 阶段生成、运行时按静态资源返回。
+export const dynamic = 'force-static'
+
 export async function GET() {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rfonlinenext.wiki'
   const siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'RF Online Next Wiki'
