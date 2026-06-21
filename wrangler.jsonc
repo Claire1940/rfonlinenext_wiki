@@ -7,5 +7,10 @@
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"
-  }
+  },
+  // 正式上线：把规范域名 www 的流量路由到本 worker（route 在边缘拦截、优先于回源 docker，
+  // 不改 DNS、不动证书；回退只需删除此 route）。非 www 维持既有 301→www。
+  "routes": [
+    { "pattern": "www.rfonlinenext.wiki/*", "zone_name": "rfonlinenext.wiki" }
+  ]
 }

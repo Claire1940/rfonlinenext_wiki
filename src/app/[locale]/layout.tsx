@@ -36,7 +36,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://rfonlinenext.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.rfonlinenext.wiki";
 
   // 获取 SEO 翻译
   const t = await getTranslations("seo.home");

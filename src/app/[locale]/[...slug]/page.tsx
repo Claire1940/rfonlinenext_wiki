@@ -218,7 +218,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rfonlinenext.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.rfonlinenext.wiki'
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }

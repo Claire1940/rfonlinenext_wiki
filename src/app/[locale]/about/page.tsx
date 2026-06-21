@@ -9,7 +9,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rfonlinenext.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.rfonlinenext.wiki'
   const path = '/about'
 
   return {

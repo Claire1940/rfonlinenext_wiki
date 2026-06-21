@@ -142,7 +142,7 @@ export default function HomePageClient({
 }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://rfonlinenext.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.rfonlinenext.wiki";
 
   // Structured data
   const structuredData = {

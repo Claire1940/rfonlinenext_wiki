@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { getAllContent, CONTENT_TYPES, type ContentType } from '@/lib/content'
 import { routing, type Locale } from '@/i18n/routing'
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://rfonlinenext.wiki'
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.rfonlinenext.wiki'
 
 // 内容类型优先级配置（与 navigation.ts NAVIGATION_CONFIG 一致）
 const contentTypePriority: Record<string, number> = {
