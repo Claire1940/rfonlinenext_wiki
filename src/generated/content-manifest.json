@@ -1,0 +1,834 @@
+{
+  "en": {
+    "classes": [
+      {
+        "slug": "rf-online-next-arbiter",
+        "file": "rf-online-next-arbiter"
+      },
+      {
+        "slug": "rf-online-next-best-class",
+        "file": "rf-online-next-best-class"
+      },
+      {
+        "slug": "rf-online-next-best-pvp-classes",
+        "file": "rf-online-next-best-pvp-classes"
+      },
+      {
+        "slug": "rf-online-next-biosuit",
+        "file": "rf-online-next-biosuit"
+      },
+      {
+        "slug": "rf-online-next-class",
+        "file": "rf-online-next-class"
+      },
+      {
+        "slug": "rf-online-next-classes",
+        "file": "rf-online-next-classes"
+      },
+      {
+        "slug": "rf-online-next-enforcer",
+        "file": "rf-online-next-enforcer"
+      },
+      {
+        "slug": "rf-online-next-mobile-best-class",
+        "file": "rf-online-next-mobile-best-class"
+      },
+      {
+        "slug": "rf-online-next-phantom",
+        "file": "rf-online-next-phantom"
+      },
+      {
+        "slug": "rf-online-next-punisher",
+        "file": "rf-online-next-punisher"
+      },
+      {
+        "slug": "rf-online-next-technician",
+        "file": "rf-online-next-technician"
+      },
+      {
+        "slug": "rf-online-next-tier-list",
+        "file": "rf-online-next-tier-list"
+      }
+    ],
+    "download": [
+      {
+        "slug": "rf-online-next-apk-download",
+        "file": "rf-online-next-apk-download"
+      },
+      {
+        "slug": "rf-online-next-app-store",
+        "file": "rf-online-next-app-store"
+      },
+      {
+        "slug": "rf-online-next-download",
+        "file": "rf-online-next-download"
+      },
+      {
+        "slug": "rf-online-next-epic-games",
+        "file": "rf-online-next-epic-games"
+      },
+      {
+        "slug": "rf-online-next-netmarble-launcher",
+        "file": "rf-online-next-netmarble-launcher"
+      },
+      {
+        "slug": "rf-online-next-pc-download",
+        "file": "rf-online-next-pc-download"
+      },
+      {
+        "slug": "rf-online-next-play-store",
+        "file": "rf-online-next-play-store"
+      },
+      {
+        "slug": "rf-online-next-steam",
+        "file": "rf-online-next-steam"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "rf-online-next-beginner-guide",
+        "file": "rf-online-next-beginner-guide"
+      },
+      {
+        "slug": "rf-online-next-boss",
+        "file": "rf-online-next-boss"
+      },
+      {
+        "slug": "rf-online-next-character-creation",
+        "file": "rf-online-next-character-creation"
+      },
+      {
+        "slug": "rf-online-next-chip-war",
+        "file": "rf-online-next-chip-war"
+      },
+      {
+        "slug": "rf-online-next-day-1-guide",
+        "file": "rf-online-next-day-1-guide"
+      },
+      {
+        "slug": "rf-online-next-dungeon-guide",
+        "file": "rf-online-next-dungeon-guide"
+      },
+      {
+        "slug": "rf-online-next-farming-guide",
+        "file": "rf-online-next-farming-guide"
+      },
+      {
+        "slug": "rf-online-next-guide",
+        "file": "rf-online-next-guide"
+      },
+      {
+        "slug": "rf-online-next-leveling-guide",
+        "file": "rf-online-next-leveling-guide"
+      },
+      {
+        "slug": "rf-online-next-progression-guide",
+        "file": "rf-online-next-progression-guide"
+      },
+      {
+        "slug": "rf-online-next-siege-kit",
+        "file": "rf-online-next-siege-kit"
+      }
+    ],
+    "release": [
+      {
+        "slug": "rf-online-next-english-release-date",
+        "file": "rf-online-next-english-release-date"
+      },
+      {
+        "slug": "rf-online-next-europe-release-date",
+        "file": "rf-online-next-europe-release-date"
+      },
+      {
+        "slug": "rf-online-next-global-release-date",
+        "file": "rf-online-next-global-release-date"
+      },
+      {
+        "slug": "rf-online-next-global-release",
+        "file": "rf-online-next-global-release"
+      },
+      {
+        "slug": "rf-online-next-indonesia-release-date",
+        "file": "rf-online-next-indonesia-release-date"
+      },
+      {
+        "slug": "rf-online-next-mobile-release-date",
+        "file": "rf-online-next-mobile-release-date"
+      },
+      {
+        "slug": "rf-online-next-philippines-release-date",
+        "file": "rf-online-next-philippines-release-date"
+      },
+      {
+        "slug": "rf-online-next-pre-register",
+        "file": "rf-online-next-pre-register"
+      },
+      {
+        "slug": "rf-online-next-release-date-global",
+        "file": "rf-online-next-release-date-global"
+      },
+      {
+        "slug": "rf-online-next-release-date",
+        "file": "rf-online-next-release-date"
+      }
+    ],
+    "requirements": [
+      {
+        "slug": "rf-online-next-android-requirements",
+        "file": "rf-online-next-android-requirements"
+      },
+      {
+        "slug": "rf-online-next-black-screen",
+        "file": "rf-online-next-black-screen"
+      },
+      {
+        "slug": "rf-online-next-compatibility",
+        "file": "rf-online-next-compatibility"
+      },
+      {
+        "slug": "rf-online-next-ios-requirements",
+        "file": "rf-online-next-ios-requirements"
+      },
+      {
+        "slug": "rf-online-next-mobile-requirements",
+        "file": "rf-online-next-mobile-requirements"
+      },
+      {
+        "slug": "rf-online-next-pc-requirements",
+        "file": "rf-online-next-pc-requirements"
+      },
+      {
+        "slug": "rf-online-next-size",
+        "file": "rf-online-next-size"
+      },
+      {
+        "slug": "rf-online-next-system-requirements",
+        "file": "rf-online-next-system-requirements"
+      }
+    ]
+  },
+  "ja": {
+    "classes": [
+      {
+        "slug": "rf-online-next-arbiter",
+        "file": "rf-online-next-arbiter"
+      },
+      {
+        "slug": "rf-online-next-best-class",
+        "file": "rf-online-next-best-class"
+      },
+      {
+        "slug": "rf-online-next-best-pvp-classes",
+        "file": "rf-online-next-best-pvp-classes"
+      },
+      {
+        "slug": "rf-online-next-biosuit",
+        "file": "rf-online-next-biosuit"
+      },
+      {
+        "slug": "rf-online-next-class",
+        "file": "rf-online-next-class"
+      },
+      {
+        "slug": "rf-online-next-classes",
+        "file": "rf-online-next-classes"
+      },
+      {
+        "slug": "rf-online-next-enforcer",
+        "file": "rf-online-next-enforcer"
+      },
+      {
+        "slug": "rf-online-next-mobile-best-class",
+        "file": "rf-online-next-mobile-best-class"
+      },
+      {
+        "slug": "rf-online-next-phantom",
+        "file": "rf-online-next-phantom"
+      },
+      {
+        "slug": "rf-online-next-punisher",
+        "file": "rf-online-next-punisher"
+      },
+      {
+        "slug": "rf-online-next-technician",
+        "file": "rf-online-next-technician"
+      },
+      {
+        "slug": "rf-online-next-tier-list",
+        "file": "rf-online-next-tier-list"
+      }
+    ],
+    "download": [
+      {
+        "slug": "rf-online-next-apk-download",
+        "file": "rf-online-next-apk-download"
+      },
+      {
+        "slug": "rf-online-next-app-store",
+        "file": "rf-online-next-app-store"
+      },
+      {
+        "slug": "rf-online-next-download",
+        "file": "rf-online-next-download"
+      },
+      {
+        "slug": "rf-online-next-epic-games",
+        "file": "rf-online-next-epic-games"
+      },
+      {
+        "slug": "rf-online-next-netmarble-launcher",
+        "file": "rf-online-next-netmarble-launcher"
+      },
+      {
+        "slug": "rf-online-next-pc-download",
+        "file": "rf-online-next-pc-download"
+      },
+      {
+        "slug": "rf-online-next-play-store",
+        "file": "rf-online-next-play-store"
+      },
+      {
+        "slug": "rf-online-next-steam",
+        "file": "rf-online-next-steam"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "rf-online-next-beginner-guide",
+        "file": "rf-online-next-beginner-guide"
+      },
+      {
+        "slug": "rf-online-next-boss",
+        "file": "rf-online-next-boss"
+      },
+      {
+        "slug": "rf-online-next-character-creation",
+        "file": "rf-online-next-character-creation"
+      },
+      {
+        "slug": "rf-online-next-chip-war",
+        "file": "rf-online-next-chip-war"
+      },
+      {
+        "slug": "rf-online-next-day-1-guide",
+        "file": "rf-online-next-day-1-guide"
+      },
+      {
+        "slug": "rf-online-next-dungeon-guide",
+        "file": "rf-online-next-dungeon-guide"
+      },
+      {
+        "slug": "rf-online-next-farming-guide",
+        "file": "rf-online-next-farming-guide"
+      },
+      {
+        "slug": "rf-online-next-guide",
+        "file": "rf-online-next-guide"
+      },
+      {
+        "slug": "rf-online-next-leveling-guide",
+        "file": "rf-online-next-leveling-guide"
+      },
+      {
+        "slug": "rf-online-next-progression-guide",
+        "file": "rf-online-next-progression-guide"
+      },
+      {
+        "slug": "rf-online-next-siege-kit",
+        "file": "rf-online-next-siege-kit"
+      }
+    ],
+    "release": [
+      {
+        "slug": "rf-online-next-english-release-date",
+        "file": "rf-online-next-english-release-date"
+      },
+      {
+        "slug": "rf-online-next-europe-release-date",
+        "file": "rf-online-next-europe-release-date"
+      },
+      {
+        "slug": "rf-online-next-global-release-date",
+        "file": "rf-online-next-global-release-date"
+      },
+      {
+        "slug": "rf-online-next-global-release",
+        "file": "rf-online-next-global-release"
+      },
+      {
+        "slug": "rf-online-next-indonesia-release-date",
+        "file": "rf-online-next-indonesia-release-date"
+      },
+      {
+        "slug": "rf-online-next-mobile-release-date",
+        "file": "rf-online-next-mobile-release-date"
+      },
+      {
+        "slug": "rf-online-next-philippines-release-date",
+        "file": "rf-online-next-philippines-release-date"
+      },
+      {
+        "slug": "rf-online-next-pre-register",
+        "file": "rf-online-next-pre-register"
+      },
+      {
+        "slug": "rf-online-next-release-date-global",
+        "file": "rf-online-next-release-date-global"
+      },
+      {
+        "slug": "rf-online-next-release-date",
+        "file": "rf-online-next-release-date"
+      }
+    ],
+    "requirements": [
+      {
+        "slug": "rf-online-next-android-requirements",
+        "file": "rf-online-next-android-requirements"
+      },
+      {
+        "slug": "rf-online-next-black-screen",
+        "file": "rf-online-next-black-screen"
+      },
+      {
+        "slug": "rf-online-next-compatibility",
+        "file": "rf-online-next-compatibility"
+      },
+      {
+        "slug": "rf-online-next-ios-requirements",
+        "file": "rf-online-next-ios-requirements"
+      },
+      {
+        "slug": "rf-online-next-mobile-requirements",
+        "file": "rf-online-next-mobile-requirements"
+      },
+      {
+        "slug": "rf-online-next-pc-requirements",
+        "file": "rf-online-next-pc-requirements"
+      },
+      {
+        "slug": "rf-online-next-size",
+        "file": "rf-online-next-size"
+      },
+      {
+        "slug": "rf-online-next-system-requirements",
+        "file": "rf-online-next-system-requirements"
+      }
+    ]
+  },
+  "ko": {
+    "classes": [
+      {
+        "slug": "rf-online-next-arbiter",
+        "file": "rf-online-next-arbiter"
+      },
+      {
+        "slug": "rf-online-next-best-class",
+        "file": "rf-online-next-best-class"
+      },
+      {
+        "slug": "rf-online-next-best-pvp-classes",
+        "file": "rf-online-next-best-pvp-classes"
+      },
+      {
+        "slug": "rf-online-next-biosuit",
+        "file": "rf-online-next-biosuit"
+      },
+      {
+        "slug": "rf-online-next-class",
+        "file": "rf-online-next-class"
+      },
+      {
+        "slug": "rf-online-next-classes",
+        "file": "rf-online-next-classes"
+      },
+      {
+        "slug": "rf-online-next-enforcer",
+        "file": "rf-online-next-enforcer"
+      },
+      {
+        "slug": "rf-online-next-mobile-best-class",
+        "file": "rf-online-next-mobile-best-class"
+      },
+      {
+        "slug": "rf-online-next-phantom",
+        "file": "rf-online-next-phantom"
+      },
+      {
+        "slug": "rf-online-next-punisher",
+        "file": "rf-online-next-punisher"
+      },
+      {
+        "slug": "rf-online-next-technician",
+        "file": "rf-online-next-technician"
+      },
+      {
+        "slug": "rf-online-next-tier-list",
+        "file": "rf-online-next-tier-list"
+      }
+    ],
+    "download": [
+      {
+        "slug": "rf-online-next-apk-download",
+        "file": "rf-online-next-apk-download"
+      },
+      {
+        "slug": "rf-online-next-app-store",
+        "file": "rf-online-next-app-store"
+      },
+      {
+        "slug": "rf-online-next-download",
+        "file": "rf-online-next-download"
+      },
+      {
+        "slug": "rf-online-next-epic-games",
+        "file": "rf-online-next-epic-games"
+      },
+      {
+        "slug": "rf-online-next-netmarble-launcher",
+        "file": "rf-online-next-netmarble-launcher"
+      },
+      {
+        "slug": "rf-online-next-pc-download",
+        "file": "rf-online-next-pc-download"
+      },
+      {
+        "slug": "rf-online-next-play-store",
+        "file": "rf-online-next-play-store"
+      },
+      {
+        "slug": "rf-online-next-steam",
+        "file": "rf-online-next-steam"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "rf-online-next-beginner-guide",
+        "file": "rf-online-next-beginner-guide"
+      },
+      {
+        "slug": "rf-online-next-boss",
+        "file": "rf-online-next-boss"
+      },
+      {
+        "slug": "rf-online-next-character-creation",
+        "file": "rf-online-next-character-creation"
+      },
+      {
+        "slug": "rf-online-next-chip-war",
+        "file": "rf-online-next-chip-war"
+      },
+      {
+        "slug": "rf-online-next-day-1-guide",
+        "file": "rf-online-next-day-1-guide"
+      },
+      {
+        "slug": "rf-online-next-dungeon-guide",
+        "file": "rf-online-next-dungeon-guide"
+      },
+      {
+        "slug": "rf-online-next-farming-guide",
+        "file": "rf-online-next-farming-guide"
+      },
+      {
+        "slug": "rf-online-next-guide",
+        "file": "rf-online-next-guide"
+      },
+      {
+        "slug": "rf-online-next-leveling-guide",
+        "file": "rf-online-next-leveling-guide"
+      },
+      {
+        "slug": "rf-online-next-progression-guide",
+        "file": "rf-online-next-progression-guide"
+      },
+      {
+        "slug": "rf-online-next-siege-kit",
+        "file": "rf-online-next-siege-kit"
+      }
+    ],
+    "release": [
+      {
+        "slug": "rf-online-next-english-release-date",
+        "file": "rf-online-next-english-release-date"
+      },
+      {
+        "slug": "rf-online-next-europe-release-date",
+        "file": "rf-online-next-europe-release-date"
+      },
+      {
+        "slug": "rf-online-next-global-release-date",
+        "file": "rf-online-next-global-release-date"
+      },
+      {
+        "slug": "rf-online-next-global-release",
+        "file": "rf-online-next-global-release"
+      },
+      {
+        "slug": "rf-online-next-indonesia-release-date",
+        "file": "rf-online-next-indonesia-release-date"
+      },
+      {
+        "slug": "rf-online-next-mobile-release-date",
+        "file": "rf-online-next-mobile-release-date"
+      },
+      {
+        "slug": "rf-online-next-philippines-release-date",
+        "file": "rf-online-next-philippines-release-date"
+      },
+      {
+        "slug": "rf-online-next-pre-register",
+        "file": "rf-online-next-pre-register"
+      },
+      {
+        "slug": "rf-online-next-release-date-global",
+        "file": "rf-online-next-release-date-global"
+      },
+      {
+        "slug": "rf-online-next-release-date",
+        "file": "rf-online-next-release-date"
+      }
+    ],
+    "requirements": [
+      {
+        "slug": "rf-online-next-android-requirements",
+        "file": "rf-online-next-android-requirements"
+      },
+      {
+        "slug": "rf-online-next-black-screen",
+        "file": "rf-online-next-black-screen"
+      },
+      {
+        "slug": "rf-online-next-compatibility",
+        "file": "rf-online-next-compatibility"
+      },
+      {
+        "slug": "rf-online-next-ios-requirements",
+        "file": "rf-online-next-ios-requirements"
+      },
+      {
+        "slug": "rf-online-next-mobile-requirements",
+        "file": "rf-online-next-mobile-requirements"
+      },
+      {
+        "slug": "rf-online-next-pc-requirements",
+        "file": "rf-online-next-pc-requirements"
+      },
+      {
+        "slug": "rf-online-next-size",
+        "file": "rf-online-next-size"
+      },
+      {
+        "slug": "rf-online-next-system-requirements",
+        "file": "rf-online-next-system-requirements"
+      }
+    ]
+  },
+  "th": {
+    "classes": [
+      {
+        "slug": "rf-online-next-arbiter",
+        "file": "rf-online-next-arbiter"
+      },
+      {
+        "slug": "rf-online-next-best-class",
+        "file": "rf-online-next-best-class"
+      },
+      {
+        "slug": "rf-online-next-best-pvp-classes",
+        "file": "rf-online-next-best-pvp-classes"
+      },
+      {
+        "slug": "rf-online-next-biosuit",
+        "file": "rf-online-next-biosuit"
+      },
+      {
+        "slug": "rf-online-next-class",
+        "file": "rf-online-next-class"
+      },
+      {
+        "slug": "rf-online-next-classes",
+        "file": "rf-online-next-classes"
+      },
+      {
+        "slug": "rf-online-next-enforcer",
+        "file": "rf-online-next-enforcer"
+      },
+      {
+        "slug": "rf-online-next-mobile-best-class",
+        "file": "rf-online-next-mobile-best-class"
+      },
+      {
+        "slug": "rf-online-next-phantom",
+        "file": "rf-online-next-phantom"
+      },
+      {
+        "slug": "rf-online-next-punisher",
+        "file": "rf-online-next-punisher"
+      },
+      {
+        "slug": "rf-online-next-technician",
+        "file": "rf-online-next-technician"
+      },
+      {
+        "slug": "rf-online-next-tier-list",
+        "file": "rf-online-next-tier-list"
+      }
+    ],
+    "download": [
+      {
+        "slug": "rf-online-next-apk-download",
+        "file": "rf-online-next-apk-download"
+      },
+      {
+        "slug": "rf-online-next-app-store",
+        "file": "rf-online-next-app-store"
+      },
+      {
+        "slug": "rf-online-next-download",
+        "file": "rf-online-next-download"
+      },
+      {
+        "slug": "rf-online-next-epic-games",
+        "file": "rf-online-next-epic-games"
+      },
+      {
+        "slug": "rf-online-next-netmarble-launcher",
+        "file": "rf-online-next-netmarble-launcher"
+      },
+      {
+        "slug": "rf-online-next-pc-download",
+        "file": "rf-online-next-pc-download"
+      },
+      {
+        "slug": "rf-online-next-play-store",
+        "file": "rf-online-next-play-store"
+      },
+      {
+        "slug": "rf-online-next-steam",
+        "file": "rf-online-next-steam"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "rf-online-next-beginner-guide",
+        "file": "rf-online-next-beginner-guide"
+      },
+      {
+        "slug": "rf-online-next-boss",
+        "file": "rf-online-next-boss"
+      },
+      {
+        "slug": "rf-online-next-character-creation",
+        "file": "rf-online-next-character-creation"
+      },
+      {
+        "slug": "rf-online-next-chip-war",
+        "file": "rf-online-next-chip-war"
+      },
+      {
+        "slug": "rf-online-next-day-1-guide",
+        "file": "rf-online-next-day-1-guide"
+      },
+      {
+        "slug": "rf-online-next-dungeon-guide",
+        "file": "rf-online-next-dungeon-guide"
+      },
+      {
+        "slug": "rf-online-next-farming-guide",
+        "file": "rf-online-next-farming-guide"
+      },
+      {
+        "slug": "rf-online-next-guide",
+        "file": "rf-online-next-guide"
+      },
+      {
+        "slug": "rf-online-next-leveling-guide",
+        "file": "rf-online-next-leveling-guide"
+      },
+      {
+        "slug": "rf-online-next-progression-guide",
+        "file": "rf-online-next-progression-guide"
+      },
+      {
+        "slug": "rf-online-next-siege-kit",
+        "file": "rf-online-next-siege-kit"
+      }
+    ],
+    "release": [
+      {
+        "slug": "rf-online-next-english-release-date",
+        "file": "rf-online-next-english-release-date"
+      },
+      {
+        "slug": "rf-online-next-europe-release-date",
+        "file": "rf-online-next-europe-release-date"
+      },
+      {
+        "slug": "rf-online-next-global-release-date",
+        "file": "rf-online-next-global-release-date"
+      },
+      {
+        "slug": "rf-online-next-global-release",
+        "file": "rf-online-next-global-release"
+      },
+      {
+        "slug": "rf-online-next-indonesia-release-date",
+        "file": "rf-online-next-indonesia-release-date"
+      },
+      {
+        "slug": "rf-online-next-mobile-release-date",
+        "file": "rf-online-next-mobile-release-date"
+      },
+      {
+        "slug": "rf-online-next-philippines-release-date",
+        "file": "rf-online-next-philippines-release-date"
+      },
+      {
+        "slug": "rf-online-next-pre-register",
+        "file": "rf-online-next-pre-register"
+      },
+      {
+        "slug": "rf-online-next-release-date-global",
+        "file": "rf-online-next-release-date-global"
+      },
+      {
+        "slug": "rf-online-next-release-date",
+        "file": "rf-online-next-release-date"
+      }
+    ],
+    "requirements": [
+      {
+        "slug": "rf-online-next-android-requirements",
+        "file": "rf-online-next-android-requirements"
+      },
+      {
+        "slug": "rf-online-next-black-screen",
+        "file": "rf-online-next-black-screen"
+      },
+      {
+        "slug": "rf-online-next-compatibility",
+        "file": "rf-online-next-compatibility"
+      },
+      {
+        "slug": "rf-online-next-ios-requirements",
+        "file": "rf-online-next-ios-requirements"
+      },
+      {
+        "slug": "rf-online-next-mobile-requirements",
+        "file": "rf-online-next-mobile-requirements"
+      },
+      {
+        "slug": "rf-online-next-pc-requirements",
+        "file": "rf-online-next-pc-requirements"
+      },
+      {
+        "slug": "rf-online-next-size",
+        "file": "rf-online-next-size"
+      },
+      {
+        "slug": "rf-online-next-system-requirements",
+        "file": "rf-online-next-system-requirements"
+      }
+    ]
+  }
+}

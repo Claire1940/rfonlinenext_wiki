@@ -55,3 +55,10 @@ __pycache__/
 seo-check-report.md
 validation_report.json
 test-cards.html
+
+# Cloudflare Workers / OpenNext 构建产物（迁移试点）
+.open-next/
+.wrangler/
+# Cloudflare 部署生成的资产校验文件（自身哈希命名），保留 ads.txt
+/public/*.txt
+!/public/ads.txt
