@@ -1,0 +1,116 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Hammer } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "RF Online Next Crafting Guide: Gear Progression & Upgrades",
+  description: "Master the RF Online Next crafting and gear enhancement systems. Learn how to upgrade equipment, manage resources, and optimize your combat power in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Crafting+Guide",
+  date: "2026-06-22",
+  author: "rf online next Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **RF Online Next crafting guide** focuses on equipment enhancement and resource management for long-term progression.
+- **Gear enhancement** is the primary method to boost your combat effectiveness across all Biosuit classes.
+- **Resource allocation** should prioritize your main damage Biosuit before spreading materials to secondary units.
+- **Daily progression** tasks are essential to maintain consistent gear growth without hitting early bottlenecks.
+</Callout>
+
+<Section icon={Hammer} title="Understanding Gear Progression">
+
+To excel in RF Online Next, you must treat your gear as a long-term investment. Unlike traditional MMOs where you simply replace gear, this game emphasizes upgrading your existing equipment to keep pace with challenging content.
+
+**Video Highlights:**
+- Identifying primary gear upgrade paths for your main Biosuit.
+- Efficiently managing limited resources during the early game.
+- Avoiding common pitfalls in gear enhancement and modification.
+
+<YouTubeEmbed videoId="cZTVgjXp2gw" title="RF Online Next Launch Day Trailer" />
+
+You should prioritize upgrading your main combat Biosuit's gear before investing in utility or secondary suits. Focus on enhancing items that provide the highest return on investment for your specific role, such as physical attack for a Demolisher or survivability for an Enforcer.
+
+| Enhancement Layer | Primary Effect | Resource Priority |
+| :--- | :--- | :--- |
+| **Base Enhance** | Increases raw stats | High |
+| **Batch Enhance** | Efficiency for bulk items | Medium |
+| **Prime Mod** | Adds unique bonuses | High |
+| **Random Option** | Stat rerolls | Low (Endgame) |
+
+<Callout type="tip" title="Strategic Advice">
+Always check your current gear's enhancement level before attempting higher-tier dungeons. A +5 weapon is often more valuable than a high-rarity item with zero upgrades.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Enhancement Process">
+
+<Steps>
+  <Step num="1" title="Access the Enhancement Menu">
+    Navigate to your character inventory and select the Equipment Enhancement tab to view your current gear.
+  </Step>
+  <Step num="2" title="Select Your Target Gear">
+    Choose the piece of equipment that is currently holding back your power level. Focus on weapons first for maximum impact.
+  </Step>
+  <Step num="3" title="Apply Enhancement Materials">
+    Use the required upgrade kits and in-game credits. Ensure you have enough materials to avoid partial upgrades.
+  </Step>
+  <Step num="4" title="Verify Stat Improvements">
+    Check the preview window to see how your attack, defense, or utility stats will change after the process.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important Note">
+Enhancement success rates can fluctuate based on the item level. Always keep a buffer of resources in case of unsuccessful attempts during higher-tier upgrades.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Resource Management and Farming">
+
+Effective crafting and upgrading require a steady supply of materials. You should integrate resource gathering into your daily routine.
+
+| Resource Type | Best Farming Method | Usage |
+| :--- | :--- | :--- |
+| **Credits** | Daily Quests & Dungeons | General Upgrades |
+| **Upgrade Kits** | World Bosses & Raids | Gear Enhancement |
+| **Rare Cores** | Field Bosses | Prime Modification |
+| **Adventure Coins** | Routine Content | Specialty Shops |
+
+<Checklist
+  id="daily-resource-goals"
+  title="Daily Resource Checklist:"
+  items={[
+    "Complete all daily dungeon entries",
+    "Participate in at least one world boss fight",
+    "Clear regional main quest objectives",
+    "Check the marketplace for essential upgrade materials"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is there a way to reset gear upgrades in RF Online Next?",
+    answer: "Currently, the system focuses on continuous enhancement. While you cannot reset an item to its original state, you can continue upgrading it to reach higher tiers."
+  },
+  {
+    question: "Should I upgrade every piece of gear I own?",
+    answer: "No. Focus your resources on your main Biosuit's gear. Upgrading every piece of equipment evenly will lead to a power plateau."
+  },
+  {
+    question: "How does the RF Online Next crafting guide relate to PvP?",
+    answer: "Properly enhanced gear provides the raw stats necessary to survive and perform in large-scale PvP, making it a prerequisite for effective faction warfare."
+  }
+]} />
+
+</Section>
