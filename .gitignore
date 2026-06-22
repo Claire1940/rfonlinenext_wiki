@@ -62,3 +62,8 @@ test-cards.html
 # Cloudflare 部署生成的资产校验文件（自身哈希命名），保留 ads.txt
 /public/*.txt
 !/public/ads.txt
+
+# 静态导出 / Workers 构建产物
+out/
+.open-next/
+.wrangler/
